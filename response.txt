@@ -1,0 +1,24 @@
+Restated Test Objective
+In plain terms, your objective is asking: "For a sample of terminated employees, can we prove — using timestamps from the offboarding ticket and system deactivation logs — that IT disabled their access within 1 business day of receiving the HR notification?"
+
+This is a timeliness test focused on the IT-side response to the HR trigger.
+
+Alignment Check
+vs. Risk — ✅ Aligned. The risk is that terminated employees retain access, enabling unauthorized activity. Testing whether access was disabled within the policy SLA directly addresses the window of exposure that creates this risk.
+
+vs. Control Description — ✅ Aligned, with one observation. The control has two legs:
+
+HR notifies IT within 24 hours of termination (HR → IT notification timeliness)
+IT disables access within 1 business day of that notification (IT response timeliness)
+Your test objective addresses leg 2 only. This is not necessarily wrong — a single test objective can legitimately target one control attribute — but you should confirm that a separate test objective covers leg 1 (HR notification timeliness). If not, you have a completeness gap at the audit-objective level: the overall Audit Objective says "removed timely and consistently with policy," but if HR's 24-hour notification obligation is never tested, you cannot fully conclude on that.
+
+vs. Audit Objective — ⚠️ Partially bounded. The Audit Objective says "timely and consistently with policy." Your test objective addresses timeliness well but does not explicitly address consistency (i.e., whether the process was followed for all terminations, not just those that made it into the offboarding system). If an employee was terminated but no offboarding ticket was ever raised, your test as written would not detect that gap. This is a potential under-scoping issue.
+
+Testability Assessment
+✅ Testable as written. The objective:
+
+Specifies the population (employees terminated during the audit period)
+Specifies the method (sample-based)
+Specifies the measurable criterion (1 business day from HR notification)
+Specifies the evidence sources (system deactivation logs + offboarding ticket timestamps)
+An auditor could pick this up and execute it without ambiguity on what needs to be proven.
