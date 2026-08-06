@@ -1,40 +1,66 @@
 1. Restated Test Objective
-The Test Objective seeks to prove two things for a sample of invoices above $5,000 processed during the audit period: (a) that both designated approvals — Finance Manager and Department Head — were formally recorded in the ERP workflow before the payment release date, and (b) that the individuals who approved held roles consistent with the authorization matrix. In effect, it tests both timeliness of approval relative to payment (sequencing) and validity of approver authority (authorization).
+
+The Test Objective, as written, asks to prove that the user access management process is "working effectively" — a general assertion of operational effectiveness across the entire process. It does not identify a specific control attribute, a measurable threshold, a defined population, evidence sources, or any bounded scope tied to the stated Risk or Control Description. In plain terms, it is a restatement of the process name appended to a generic effectiveness claim.
 
 2. Alignment Check
-Alignment to Risk: Aligned. The stated risk is that invoices are paid without proper authorization, resulting in unauthorized or fraudulent disbursements. The Test Objective directly targets the authorization mechanism by verifying that both required approvals were present before payment release and that approvers possessed the requisite delegated authority. A failure on either dimension would manifest the stated risk. No misalignment exists.
 
-Alignment to Control Description: Aligned. The Control Description specifies a single control with two testable attributes: (1) dual approval — both Finance Manager and Department Head must approve, and (2) this must occur within the ERP workflow before payment release. The Test Objective addresses both attributes explicitly: it confirms dual approval was recorded (existence and completeness of approvals) and validates approver roles against the authorization matrix (validity of authority). Additionally, the sequencing element — approvals recorded prior to payment release date — confirms the preventive nature of the control operated as designed. All stated control components are addressed; no component remains untested by this objective.
+Alignment to Risk: Not Aligned.
+The stated risk identifies a specific failure mode: terminated employees retaining system access, enabling unauthorized transactions or data. The Test Objective makes no reference to terminated employees, access deactivation, retention of access, or any mechanism by which the risk materializes. "User access management is working effectively" is broad enough to encompass provisioning, periodic reviews, privileged access, segregation of duties, and authentication controls — none of which are the stated risk. An auditor working from this objective would have no basis for targeting the specific risk of post-termination access retention.
 
-Alignment to Audit Objective: Aligned. The Audit Objective requires assessment of whether invoice payments above the approval threshold were properly authorized. The Test Objective is bounded to exactly this scope — invoices exceeding $5,000 — and tests proper authorization through both the presence of required approvals and the legitimacy of the approvers. It neither expands scope (e.g., into invoice accuracy, duplicate payments, or vendor master integrity) nor narrows it below what the Audit Objective requires. This single test objective is sufficient to support a conclusion on the stated Audit Objective, provided the sample is representative of the full population.
+Alignment to Control Description: Not Aligned.
+The Control Description specifies two discrete control components with defined actors, timelines, and systems: (1) HR notification within 24 hours via the offboarding ticket system, and (2) IT deactivation within 1 business day. The Test Objective references none of these elements — no actor, no timeline, no system, no triggering event, and no control component. There is no traceable link between what the objective asks to be proven and what the control is designed to do.
+
+Alignment to Audit Objective: Not Aligned.
+The Audit Objective requires confirmation that access for terminated employees is removed "timely and consistently with policy." The Test Objective omits the population (terminated employees), the attribute (timeliness), the benchmark (policy-defined SLAs), and the scope boundary (access removal). While the phrase "working effectively" could theoretically encompass the Audit Objective, it does so only by being so broad that it encompasses everything and targets nothing. This is not a scoping decision — it is an absence of scope.
 
 3. Testability Assessment
-The Test Objective is testable as written. It specifies:
 
-A defined population: invoices exceeding $5,000 processed during the audit period
-A sampling approach: explicit reference to a sample
-Measurable criteria: (a) both approvals recorded in ERP workflow, (b) approval timestamps precede payment release date, (c) approver roles match the authorization matrix
-Identifiable evidence sources: ERP workflow approval logs, payment release records, authorization matrix
-An auditor could execute this test without ambiguity. The criteria are binary (present/absent, before/after, match/mismatch), making exception identification straightforward. No vague, circular, or aspirational phrasing is present.
+Not Testable. The Test Objective fails every criterion for testability:
 
-One refinement opportunity (non-blocking): the objective does not specify whether "processed" means invoice posting date, payment execution date, or payment run date. This could affect population completeness depending on the ERP system's transaction lifecycle. This is a minor precision point rather than a testability deficiency.
+- No defined population — what is being sampled or inspected is unspecified.
 
-4. Methodology Compliance
-The Allianz Standard for Internal Audit (SAM V7.0) requires that operating effectiveness testing confirm the control is "consistently working as designed in practice and achieving its objective in the day-to-day operations," carried out "on the basis of a full data set or a meaningful, representative sample".Allianz Standard ...
-AZAP Audit_Standa...
- The Test Objective satisfies this requirement: it tests operating effectiveness (approval execution prior to payment) on a sample basis for the audit period. The SAM further requires that test of design assess whether the control is "(1) appropriate and sufficient to mitigate the underlying risk, (2) in compliance with internal and external requirements and (3) implemented".Allianz Standard ...
- The authorization matrix check within the Test Objective partially addresses design compliance (confirming approver roles are appropriate), though the objective is primarily an operating effectiveness test. No structural non-compliance with the methodology is identified.
+- No measurable threshold — "working effectively" is not a provable proposition; it cannot be confirmed or refuted without first defining what "effective" means in measurable terms.
+
+- No evidence sources named — an auditor cannot determine what to request or inspect.
+
+- No control attribute identified — existence, timeliness, completeness, accuracy, and authorization are all absent.
+
+- Circular phrasing — the objective merely asserts the conclusion it is supposed to test ("working effectively") rather than stating what evidence would demonstrate effectiveness.
+
+An auditor handed this objective could not design a test procedure, determine a sample, or identify what "pass" and "fail" look like. This is aspirational language, not a testable proposition.
+
+4. Methodology Compliance & References
+
+Per Allianz UK SAM v2 - Final (02-02-2025): The methodology was reviewed for prescriptive requirements regarding test objective structure. While no specific mandatory template for test objectives was identified in the retrievable sections, the general principle that audit work must be designed to address identified risks with sufficient specificity to support conclusions is a foundational element of the standard. A test objective that cannot be traced to the risk under examination does not meet this foundational requirement.
+
+Rating: Not Compliant. Even in the absence of a prescriptive test objective template, the methodology's risk-based approach requires that testing be designed with direct reference to the specific risk and control under examination. A generic effectiveness statement without reference to the risk, control, population, or measurable criteria fails this standard.
+
+Additionally, per general IA practice (IIA Standard 2320 — Analysis and Evaluation), audit conclusions must be based on appropriate analyses and evaluations; a test objective that does not define what is being measured cannot produce an analysis capable of supporting a conclusion. This reference is provided because the methodology does not prescribe a specific test objective structure, and is clearly labeled as general practice.
 
 5. Verdict
-Fit for purpose. The Test Objective is traceable to the risk and control, covers all stated control components, is appropriately bounded to the Audit Objective, is testable with identifiable evidence, and complies with the methodology's requirements for operating effectiveness testing on a sample basis.
+
+Not testable as written. The Test Objective is a generic effectiveness assertion with no traceable link to the Risk, Control Description, or Audit Objective. It names no population, no threshold, no evidence, no control attribute, and no measurable criterion. It cannot serve as the basis for a test procedure and requires a complete rewrite.
 
 6. Suggested Revision(s)
-Not required. The objective is fit for purpose. One optional precision enhancement is noted below for consideration but does not constitute a required revision:
 
-Optional enhancement: Clarify the population definition from "processed during the audit period" to "for which payment was released during the audit period" — this eliminates potential ambiguity about whether the population anchor is invoice receipt date, posting date, or payment date, and ensures the population captures all payments at risk regardless of when the invoice was initially entered.
+The objective requires full replacement. The following provides an example aligned to the stated inputs:
+
+Revised Test Objective: "For a sample of employees terminated during the audit period, confirm that: (a) HR raised an offboarding notification in the ticket system within 24 hours of the termination effective date, and (b) IT disabled the employee's system access within 1 business day of notification receipt — as evidenced by HR termination records, offboarding ticket timestamps, and system deactivation logs."
+
+Revised Test Objective: "For a sample of employees terminated during the audit period, confirm that: (a) HR raised an offboarding notification in the ticket system within 24 hours of the termination effective date, and (b) IT disabled the employee's system access within 1 business day of notification receipt — as evidenced by HR termination records, offboarding ticket timestamps, and system deactivation logs."
+
+What changed and why:
+
+- Replaced a generic effectiveness assertion with a specific, provable proposition tied to both control components.
+
+- Named the population (terminated employees during audit period), the measurable thresholds (24 hours; 1 business day), the control attributes (timeliness of notification; timeliness of deactivation), and three evidence sources.
+
+- Ensured traceability to both the Risk (post-termination access retention) and the full Control Description (both components).
+
+- Scoped to the Audit Objective boundary (timely and consistent with policy) without expanding beyond it.
 
 7. Open Questions for the Auditor
-What is the defined population anchor — is "processed" measured from invoice posting date, approval date, or payment release date? This affects completeness of the test population.
-Is the authorization matrix version-controlled? If roles changed during the audit period, which version of the matrix will be applied to invoices approved before versus after the change?
-Does the test scope include invoices that bypassed the ERP workflow entirely (e.g., emergency payments, manual disbursements)? If such a bypass mechanism exists, a separate test objective or population completeness check may be needed to detect invoices that circumvented the dual-approval control.
-Are retroactive approvals (post-payment) flagged separately in the ERP, or would they appear identical to pre-payment approvals? If the latter, the sequencing test may need to rely on timestamp granularity.
+
+- Is this the only test objective planned for this control, or was a more specific version drafted elsewhere? If this wording was a placeholder or summary header rather than the intended working-level objective, the auditor should confirm the actual detailed objective in use. Verdict impact: if a detailed version exists, this review applies to the placeholder only and the detailed version should be submitted for separate assessment.
+
+- Was the generic phrasing intentional to cover multiple controls within User Access Management (e.g., provisioning, periodic reviews, privileged access) under a single umbrella? If so, this represents a fundamental scoping error — a single test objective cannot validly address multiple distinct controls with different attributes, populations, and evidence. Each control requires its own test objective. Verdict impact: the objective would remain not testable regardless of intent, as no single proposition can be both specific enough to test and broad enough to cover the full UAM process.
