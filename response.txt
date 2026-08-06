@@ -1,24 +1,40 @@
-Restated Test Objective
-In plain terms, your objective is asking: "For a sample of terminated employees, can we prove — using timestamps from the offboarding ticket and system deactivation logs — that IT disabled their access within 1 business day of receiving the HR notification?"
+1. Restated Test Objective
+The Test Objective seeks to prove two things for a sample of invoices above $5,000 processed during the audit period: (a) that both designated approvals — Finance Manager and Department Head — were formally recorded in the ERP workflow before the payment release date, and (b) that the individuals who approved held roles consistent with the authorization matrix. In effect, it tests both timeliness of approval relative to payment (sequencing) and validity of approver authority (authorization).
 
-This is a timeliness test focused on the IT-side response to the HR trigger.
+2. Alignment Check
+Alignment to Risk: Aligned. The stated risk is that invoices are paid without proper authorization, resulting in unauthorized or fraudulent disbursements. The Test Objective directly targets the authorization mechanism by verifying that both required approvals were present before payment release and that approvers possessed the requisite delegated authority. A failure on either dimension would manifest the stated risk. No misalignment exists.
 
-Alignment Check
-vs. Risk — ✅ Aligned. The risk is that terminated employees retain access, enabling unauthorized activity. Testing whether access was disabled within the policy SLA directly addresses the window of exposure that creates this risk.
+Alignment to Control Description: Aligned. The Control Description specifies a single control with two testable attributes: (1) dual approval — both Finance Manager and Department Head must approve, and (2) this must occur within the ERP workflow before payment release. The Test Objective addresses both attributes explicitly: it confirms dual approval was recorded (existence and completeness of approvals) and validates approver roles against the authorization matrix (validity of authority). Additionally, the sequencing element — approvals recorded prior to payment release date — confirms the preventive nature of the control operated as designed. All stated control components are addressed; no component remains untested by this objective.
 
-vs. Control Description — ✅ Aligned, with one observation. The control has two legs:
+Alignment to Audit Objective: Aligned. The Audit Objective requires assessment of whether invoice payments above the approval threshold were properly authorized. The Test Objective is bounded to exactly this scope — invoices exceeding $5,000 — and tests proper authorization through both the presence of required approvals and the legitimacy of the approvers. It neither expands scope (e.g., into invoice accuracy, duplicate payments, or vendor master integrity) nor narrows it below what the Audit Objective requires. This single test objective is sufficient to support a conclusion on the stated Audit Objective, provided the sample is representative of the full population.
 
-HR notifies IT within 24 hours of termination (HR → IT notification timeliness)
-IT disables access within 1 business day of that notification (IT response timeliness)
-Your test objective addresses leg 2 only. This is not necessarily wrong — a single test objective can legitimately target one control attribute — but you should confirm that a separate test objective covers leg 1 (HR notification timeliness). If not, you have a completeness gap at the audit-objective level: the overall Audit Objective says "removed timely and consistently with policy," but if HR's 24-hour notification obligation is never tested, you cannot fully conclude on that.
+3. Testability Assessment
+The Test Objective is testable as written. It specifies:
 
-vs. Audit Objective — ⚠️ Partially bounded. The Audit Objective says "timely and consistently with policy." Your test objective addresses timeliness well but does not explicitly address consistency (i.e., whether the process was followed for all terminations, not just those that made it into the offboarding system). If an employee was terminated but no offboarding ticket was ever raised, your test as written would not detect that gap. This is a potential under-scoping issue.
+A defined population: invoices exceeding $5,000 processed during the audit period
+A sampling approach: explicit reference to a sample
+Measurable criteria: (a) both approvals recorded in ERP workflow, (b) approval timestamps precede payment release date, (c) approver roles match the authorization matrix
+Identifiable evidence sources: ERP workflow approval logs, payment release records, authorization matrix
+An auditor could execute this test without ambiguity. The criteria are binary (present/absent, before/after, match/mismatch), making exception identification straightforward. No vague, circular, or aspirational phrasing is present.
 
-Testability Assessment
-✅ Testable as written. The objective:
+One refinement opportunity (non-blocking): the objective does not specify whether "processed" means invoice posting date, payment execution date, or payment run date. This could affect population completeness depending on the ERP system's transaction lifecycle. This is a minor precision point rather than a testability deficiency.
 
-Specifies the population (employees terminated during the audit period)
-Specifies the method (sample-based)
-Specifies the measurable criterion (1 business day from HR notification)
-Specifies the evidence sources (system deactivation logs + offboarding ticket timestamps)
-An auditor could pick this up and execute it without ambiguity on what needs to be proven.
+4. Methodology Compliance
+The Allianz Standard for Internal Audit (SAM V7.0) requires that operating effectiveness testing confirm the control is "consistently working as designed in practice and achieving its objective in the day-to-day operations," carried out "on the basis of a full data set or a meaningful, representative sample".Allianz Standard ...
+AZAP Audit_Standa...
+ The Test Objective satisfies this requirement: it tests operating effectiveness (approval execution prior to payment) on a sample basis for the audit period. The SAM further requires that test of design assess whether the control is "(1) appropriate and sufficient to mitigate the underlying risk, (2) in compliance with internal and external requirements and (3) implemented".Allianz Standard ...
+ The authorization matrix check within the Test Objective partially addresses design compliance (confirming approver roles are appropriate), though the objective is primarily an operating effectiveness test. No structural non-compliance with the methodology is identified.
+
+5. Verdict
+Fit for purpose. The Test Objective is traceable to the risk and control, covers all stated control components, is appropriately bounded to the Audit Objective, is testable with identifiable evidence, and complies with the methodology's requirements for operating effectiveness testing on a sample basis.
+
+6. Suggested Revision(s)
+Not required. The objective is fit for purpose. One optional precision enhancement is noted below for consideration but does not constitute a required revision:
+
+Optional enhancement: Clarify the population definition from "processed during the audit period" to "for which payment was released during the audit period" — this eliminates potential ambiguity about whether the population anchor is invoice receipt date, posting date, or payment date, and ensures the population captures all payments at risk regardless of when the invoice was initially entered.
+
+7. Open Questions for the Auditor
+What is the defined population anchor — is "processed" measured from invoice posting date, approval date, or payment release date? This affects completeness of the test population.
+Is the authorization matrix version-controlled? If roles changed during the audit period, which version of the matrix will be applied to invoices approved before versus after the change?
+Does the test scope include invoices that bypassed the ERP workflow entirely (e.g., emergency payments, manual disbursements)? If such a bypass mechanism exists, a separate test objective or population completeness check may be needed to detect invoices that circumvented the dual-approval control.
+Are retroactive approvals (post-payment) flagged separately in the ERP, or would they appear identical to pre-payment approvals? If the latter, the sequencing test may need to rely on timestamp granularity.
