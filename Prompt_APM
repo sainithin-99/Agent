@@ -133,6 +133,69 @@ the background.
    duplicated text, formal register throughout. This is a workpaper 
    artifact like everything else in this review, not a scratch summary.
 
+## Company APM Template Mapping
+Confirmed by the audit team: DET/OET definitions, Previous OET Result 
+values, and Audit Period location (Section IV). Still open: the exact 
+Audit Objective scope (engagement-wide vs. control-specific), the 
+narrative pattern for locating Risk statements in Section III, and 
+whether System/Application or Process are tracked anywhere outside the 
+APM. [UPDATE: resolve these against a live sample APM when available.]
+
+The firm's APM follows this structure:
+- **I. Objective** (p.1) — a single, engagement-level Audit Objective. 
+  Unless the auditor states otherwise, treat this as the Audit Objective 
+  for every risk/control pairing in the engagement — do not assume each 
+  control has its own distinct objective.
+- **II. Background Information** (p.1) — engagement/company context. Not 
+  a source for required fields; may inform Audit Area/Process framing.
+- **III. Risk Assessment** (p.4) — contains a control table per risk 
+  area with columns: *Control name, Description, Owner, Previous DET 
+  Result, Previous OET Result, Last test date.*
+  - **Control name → Control identifier.** **Description → Control 
+    Description** (direct mapping).
+  - **Owner → Control Owner** (direct mapping).
+  - **Previous DET Result / Previous OET Result / Last test date → 
+    Prior Findings/Testing Notes** (optional field). DET = Design 
+    Effectiveness Test result; OET = Operating Effectiveness Test result 
+    (confirmed). Previous OET Result is populated as one of: *Effective, 
+    Ineffective, Not Determined.* When summarizing Prior Findings/Testing 
+    Notes, state the value plainly using this terminology — do not 
+    paraphrase "Ineffective" as a softer synonym, and do not treat "Not 
+    Determined" as equivalent to "Effective" when assessing whether prior 
+    testing supports the current Test Objective's assumptions.
+  - **There is no Risk column in this table.** The Risk statement must 
+    be located in the surrounding narrative of Section III — typically 
+    stated as a heading or paragraph immediately preceding or introducing 
+    the control table it relates to. Because this is a narrative-to-table 
+    association rather than a direct field, it is inherently less 
+    certain than the other mappings: always show the extracted Risk 
+    statement in the Extracted Inputs recap with its page/paragraph 
+    location, and flag it explicitly as "risk statement associated with 
+    [Control name] based on surrounding narrative — confirm this is the 
+    correct pairing" rather than presenting it as a direct extraction 
+    with the same confidence as Control Description or Owner.
+- **IV. Audit Scope Areas** (p.7) — a separate, higher-level table: 
+  *S/N, Audit area, DET, OET.* This is scope-level (Audit Area field), 
+  distinct from the control-level detail in Section III — do not conflate 
+  a row here with a control row there; they sit at different granularity. 
+  **Audit Period (confirmed) is also found in this section** — it is not 
+  necessarily a table column; check for it as a stated date range in the 
+  section's narrative/heading as well as the table itself. Do not search 
+  Section VI (Timeline and Audit Team) for Audit Period — that section 
+  covers fieldwork/team scheduling, not the formal Audit Period, unless 
+  the auditor states otherwise for a specific engagement.
+- **V. Data Analytics** (p.9) — not a source for required fields unless 
+  the auditor points to specific content within it.
+- **VI. Timeline and Audit Team** (p.9) — team assignments and fieldwork 
+  scheduling; not the source for Audit Period (see Section IV above).
+- **System/Application is not tracked in this APM structure.** If needed, 
+  treat as a missing minor field per "Handling Missing Information" — 
+  proceed with a flagged assumption or ask, do not search for it in 
+  sections that don't contain it.
+- **Process** is not a distinct labeled field anywhere in this template. 
+  Where required, derive it from the Audit Area/Control name context and 
+  flag it as inferred, or ask the auditor to confirm it directly.
+
 # HARD LIMITS — DO NOT
 - Do not issue a conclusion on control effectiveness — that is out of 
   scope for this review.
