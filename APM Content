@@ -17,3 +17,16 @@ Control name	,Description	,Owner	Previous DET result	,Previous OET Result	,Last 
 
 Audit Scope area has table and in that we have 
 S/N	,Audit area,	DET,	OET.
+
+
+
+
+111111111111111111111111111111111
+1. Audit Objective — engagement-wide or control-specific?
+When Section I states "Objective," is that meant to apply to every risk/control pairing tested under this APM, or does each control in Section III effectively have its own more specific objective that just isn't written out as a separate field? If a Test Objective needs to be checked for alignment "to the Audit Objective," should it always be checked against the single Section I statement, or is there a more granular objective implied per control?
+
+2. Risk statement — is there a consistent narrative pattern in Section III?
+Since Risk isn't a table column, is it always written as a heading or paragraph immediately above the control table it relates to? Or does the placement vary — e.g., sometimes one risk paragraph covers multiple controls, sometimes a risk is described after the table instead of before it? Knowing whether it's a consistent 1-risk-per-table pattern (versus something looser) determines whether extraction can be automated with confidence or needs a confirmation step every time.
+
+3. System/Application and Process — tracked anywhere at all?
+Neither field appears in the APM structure you've shown. Are these tracked somewhere else in the engagement's documentation — a separate RCM, a walkthrough workpaper, a ticketing/asset system — even if not in the APM itself? Or are they simply not something the firm formally tracks at the planning-memo stage, meaning the agent should always ask the auditor directly for these two fields rather than looking for them anywhere?
