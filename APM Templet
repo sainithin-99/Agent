@@ -1,0 +1,152 @@
+
+# Audit Planning Memorandum (APM) - Document Structure Template
+
+## Document Metadata (Header)
+- Audit Ref: [Reference Code]
+- Audit Name: [Name of Audit]
+- Prepared By: [Name, Role]
+- Organisation: [Organisation Name]
+
+---
+
+## Table of Contents
+| Column: Chapter | Column: Content | Column: Page |
+
+---
+
+## Section I: Objective
+
+### Subsection: Audit Objective
+- Audit objective statement (narrative paragraph)
+- Audit type (e.g., practice audit)
+- Audit object reference code
+- Methodology description (narrative)
+
+---
+
+## Section II: Background Information
+
+### Subsection: [Audit Topic Name]
+- **Previous Audits Table:**
+  | Column: Year of Audit | Column: Audit Title | Column: Summary Opinion |
+
+- Narrative description of relevant Group frameworks/models
+- Bullet list of governance objectives/purposes
+- Strategy description (narrative)
+- **Figure(s):** Embedded diagrams/images (e.g., strategic domain frameworks)
+- Key assessment points (bullet list)
+
+### Subsection: [Organisation/Entity Name]
+- Board/Management responsibilities description (narrative)
+- **Figure(s):** Organisational charts (embedded images)
+- Reporting structure description (narrative)
+- Framework references (e.g., COBIT 2019)
+
+### Subsection: Relevant UK and Group Policies and Functional Rules
+- Bullet list of applicable policies/functional rules (e.g., AFRIT, AFIRM, APITIS)
+
+### Subsection: 2nd Line and Other Assurance Providers
+- Narrative description of findings from other assurance providers
+
+---
+
+## Section III: Risk Assessment
+
+### Subsection: Consideration of Fraud Risks
+- Narrative on fraud risk considerations
+
+### Subsection: Management's Own Assessment of Risks and Controls
+- Risk narrative with risk reference code
+- **Controls Table:**
+  | Column: Control Name | Column: Description | Column: Owner | Column: Previous DET Result | Column: Previous OET Result | Column: Last Test Date |
+
+### Subsection: Key Risks Identified by IA
+- Bullet list of identified key risks (risk names/titles)
+
+### Subsection: Local Risk Assessment (Source, Date)
+- Risk categories with ratings:
+  - Risk Type (e.g., Operational, Reputational, Strategic)
+  - Impact level (e.g., High, Moderate, Low)
+  - Frequency level (e.g., High, Moderate, Low)
+
+---
+
+## Section IV: Audit Scope Areas
+
+### Subsection: Scope Areas
+- **Main Scope Table:**
+  | Column: S/N | Column: Audit Area | Column: DET (P/N/A) | Column: OET (P/N/A) |
+
+  Structure: Numbered main areas with lettered sub-areas, each marked with P (Performed) or N/A (Not Applicable) for DET and OET columns.
+
+- **Additional Audit Topics Checkbox Table:**
+  | Data Privacy | Outsourcing | ESG |
+  | Automation/AI | Sourcing & Procurement | Identity & Access Management |
+  | Archiving | End User Computing | BCM |
+  | Compliance | | |
+  
+  Each topic marked as: Applicable / Not Applicable (checkbox style)
+
+### Subsection: Exclusions
+- Bullet list of items explicitly out of scope
+
+### Subsection: Audit Period
+- Start date to End date
+
+---
+
+## Section V: Data Analytics
+- Narrative statement on whether Data Analytics is involved (Yes/No with description)
+
+---
+
+## Section VI: Timeline and Audit Team
+
+### Subsection: GAUD Milestones
+- **Milestones Table:**
+  | Column: GAUD Milestone | Column: Date | Column: Notes/KPIs |
+
+  Grouped by phases:
+  - **Planning phase:** Announcement Letter, Kick-Off Meeting
+  - **Fieldwork phase:** APM Approved, AWP Approved, Start of Fieldwork, Exit Meeting/End of Fieldwork
+  - **Reporting phase:** Draft Report, Final Draft Report, Final Report
+  - **Close Down phase:** Close of Audit
+
+  KPI indicators noted against relevant milestones (KPI 1 through KPI 6)
+
+### Subsection: Audit Team
+- **Audit Team Table:**
+  | Column: Role | Column: IA Staff Assigned | Column: Budgeted Days |
+
+  Roles include: HIA, IAM, SIA (can be multiple)
+  Final row: Total budgeted days
+
+### Subsection: Conflicts of Interest Declaration
+- Narrative confirmation statement
+
+---
+
+## Appendix A – Company Structure
+
+- **Embedded Diagram:** Full company/group structure (organisational chart image)
+- **Legal Entities in Scope Table:**
+  | Column: Holding Company | Column: Legal Entity | Column: In Scope? (Y/N) |
+
+  Grouped by parent holding company, listing all subsidiaries with Y/N scope indicator.
+
+---
+
+## Visual Elements Summary
+The APM may contain the following embedded visual elements:
+1. Strategic/governance framework diagrams
+2. Organisational charts (leadership team structures)
+3. Company group structure diagrams (with colour-coded keys)
+
+---
+
+## Document Formatting Notes
+- Document uses Roman numeral section numbering (I, II, III, IV, V, VI)
+- Sub-areas within scope use number + letter convention (e.g., 1a, 1b, 2a)
+- Tables use bordered grid format
+- Figures are numbered sequentially (Figure 1, Figure 2, Figure 3)
+- Appendices are lettered (Appendix A, Appendix B, etc.)
