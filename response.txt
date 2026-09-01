@@ -18,90 +18,62 @@ Control :- Gov 3b_Operational Structure Documentation and Procedural Knowledge /
 Control description:- Up-to-date documentation of operational structure (e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.)
 
 
-Here is the formal Gate 1 Control Design Assessment.
-
 1. Restated Risk
+The risk is that policies, standards, and functional rules governing agent network management — specifically IFA management — either do not exist, are incomplete in their coverage of required subject matter, or fail to comply with applicable regulatory or internal requirements. The failure pathway is a governance-layer gap: absent or deficient foundational documentation leaves the IFA agent network without enforceable standards for sales steering, target setting, remuneration, recruitment, training, and related processes, exposing the organization to uncontrolled conduct risk and potential regulatory non-compliance.
 
-The risk posits that policies, standards, and/or functional rules governing the audited function — in this case, Agent Network Management including IFA management — either (a) do not exist where they are required, (b) exist but are incomplete in their coverage of required subject matter, or (c) exist but do not comply with applicable Allianz Group Corporate Rules, Allianz Standards, or regulatory requirements. The failure pathway operates on three distinct vectors: absence of governing documentation leaves the function without mandated operational parameters; incomplete documentation creates gaps that allow uncontrolled activity; and non-compliant documentation means the function operates under local rules that do not meet Group or regulatory standards, exposing the entity to supervisory, legal, or operational risk.
+The risk contains three distinct failure modes: (a) non-existence, (b) incompleteness, and (c) non-compliance of the governing documents.
 
 2. Restated Control Description
+The control description states: "Up-to-date documentation of operational structure (e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.)"
 
-The control, as provided, states: documentation of the operational structure — exemplified by Corporate Rules/Policies and Adonis/Process descriptions — is maintained in an up-to-date state. No named actor responsible for maintaining or reviewing this documentation is identified. No review frequency, trigger event, or approval mechanism is stated. No completeness criteria or compliance-assessment mechanism is described.
-
-It is noted that per the SoG Controls Guidance Paper, the full Group Audit definition of Gov_3b includes a second element: "and proper communication of the structure to all affected staff (including training sessions)." The control description as provided by the auditor omits this communication and training element.[1][2]
+As written, this is a statement of a desired condition — that documentation exists and is current — rather than a description of a control activity. No actor is named. No action verb describes what is performed. No trigger event or review frequency is stated. No escalation or remediation path is described. The parenthetical examples are open-ended ("e.g." and "etc."), leaving the scope of documentation unbounded. The control name references "Procedural Knowledge / Content Expertise," but the control description does not address procedural knowledge or content expertise in any way.
 
 3. Mitigation Assessment
+Rating: Does Not Mitigate
 
-Rating: Partially Mitigates
+The control description fails to map onto any of the three failure modes in the stated risk for the following reasons:
 
-The control's relationship to each of the risk's three failure modes is as follows:
+Non-existence of policies/standards: The description asserts that documentation exists but does not describe any mechanism — such as a periodic inventory, gap analysis, or governed document register — that would detect or prevent the absence of required policies.
+Incompleteness of policies/standards: No assessment, review cycle, or completeness criteria are described. There is no mechanism to determine whether existing documentation covers all required subject-matter areas for IFA management.
+Non-compliance of policies/standards: No compliance-review step, regulatory mapping, or sign-off process is described. There is no mechanism to verify that documentation meets applicable regulatory or internal requirements.
+The control description operates in the same topical area as the risk (governance documentation), but asserting a desired state is not the same as describing a control that achieves or maintains that state. A control must describe an action that interrupts or detects the risk's failure pathway; this description does neither.
 
-- Non-existing policies/standards/functional rules: The control partially addresses this. If documentation is maintained "up-to-date," it implies documentation exists. However, maintaining "documentation of operational structure" is not equivalent to ensuring that all required policies, standards, and functional rules for Agent Network Management and IFA management are in place. The control does not include an inventory or gap assessment to confirm that no required document is absent.
-
-- Incomplete policies/standards/functional rules: The control does not address this failure mode. No minimum content standard, completeness checklist, or coverage-assessment mechanism is described. Documentation may exist and be current yet still omit material requirements — the control as written would not detect this.
-
-- Non-compliant policies/standards/functional rules: The control does not address this failure mode. No mechanism for assessing compliance of local policies/procedures against Allianz Group Corporate Rules, applicable Allianz Standards, or Functional Rules is described. Documentation may exist, be current, and appear complete yet still diverge from Group requirements — the control as written has no means of identifying this.
-
-Additionally, the control description focuses on "operational structure" documentation, which is narrower in scope than the risk statement's reference to "Policies, Standards and Functional Rules." Operational structure documentation (e.g., process maps, org charts in Adonis) is a subset of, and distinct from, the full corpus of policies, standards, and functional rules that the risk contemplates.
+Additionally, the control name's reference to "Procedural Knowledge / Content Expertise" is entirely unaddressed by the control description — this represents a scope-mismatch issue where the control identifier implies broader coverage than the description delivers.
 
 4. Control Type Consideration
-
-The control as described is preventive in nature — it is intended to ensure documentation is maintained in a current state, thereby preventing the condition of absent or outdated documentation from persisting. However, the risk requires both preventive and detective control elements. A preventive control would ensure required documentation is created, approved, and updated on schedule. A detective control would periodically assess whether the documentation inventory is complete and whether its content complies with Group requirements. The control as written provides only a general preventive posture (currency of existing documentation) and lacks any detective mechanism for completeness or compliance assessment. For a risk scoped to IFA management governance within a catalogue audit, the absence of a compliance-assessment element is a material gap, as non-compliance is one of the three explicitly stated failure modes.
+The control description does not describe a mechanism that can be classified as either preventive or detective. If interpreted charitably as a preventive control (maintaining current documentation to prevent governance gaps from arising), no maintenance activity, responsible party, or update trigger is described. If interpreted as a detective control (periodic review to identify documentation gaps), no review frequency, reviewer, criteria, or escalation path is stated. Given that the risk addresses the foundational existence and adequacy of governance documents, a preventive mechanism (governed document lifecycle with defined ownership, periodic review, and regulatory-mapping requirements) would be more appropriate than a purely detective one — but neither type is discernible from the current description.
 
 5. Specificity Assessment
+The control description is insufficiently specific to be assessable as a mitigation mechanism. The following required elements are absent:
 
-The control description is insufficiently specific for a robust design-adequacy assessment:
-
-- No named actor — the description does not identify who is responsible for maintaining or reviewing the documentation (e.g., process owner, compliance function, distribution management).
-
-- No defined frequency or trigger — "up-to-date" is stated as a condition but no review cadence (e.g., annual, upon regulatory change, upon process change) or trigger event is defined. This makes it impossible to assess whether the control would operate with sufficient frequency to keep pace with the risk.
-
-- No defined scope of documentation — the parenthetical "(e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.)" is illustrative, not exhaustive. It is unclear whether this control is intended to cover all policies, standards, and functional rules relevant to Agent Network Management, or only a subset.
-
-- No defined standard for "up-to-date" — there is no threshold or criteria for what constitutes currency (e.g., reviewed within the last 12 months, updated following each regulatory change).
-
-- Communication element omitted — the Group Audit definition of Gov_3b includes "proper communication of the structure to all affected staff (including training sessions)," which the provided control description does not include.[1][2]
+Named actor: No individual or role is identified as responsible for creating, reviewing, approving, or maintaining the documentation.
+Defined action: No verb describes a control activity being performed. The description is a noun phrase ("up-to-date documentation"), not an action statement.
+Trigger or frequency: No event trigger or periodic schedule is stated. "Up-to-date" implies currency but does not define how currency is maintained or verified, or at what interval.
+Bounded scope: The use of "e.g." and "etc." leaves the population of documents undefined. An assessor cannot determine what documentation should exist, and therefore cannot determine whether it does exist.
+Output or escalation: No defined outcome, exception process, or remediation path is described for instances where documentation is found to be missing, incomplete, or non-compliant.
+Independent of the mitigation-adequacy finding above, the description as written would not support a design-effectiveness test because there is no testable control activity to evaluate.
 
 6. Verdict
-
-Partially Mitigates — the control addresses the existence/currency dimension of the risk in general terms but does not address the completeness or compliance dimensions, and lacks the specificity required for confident design-adequacy assessment.
+Does Not Mitigate. The control description is a condition statement asserting a desired state, not a description of a control mechanism. It does not identify an actor, action, trigger, or frequency, and it does not address the incompleteness or non-compliance failure modes of the risk.
 
 7. Suggested Refinements
+To close the gap, the control description would need to be revised to include, at minimum:
 
-To close the identified gaps, the control description would need to incorporate the following:
-
-- Completeness assessment — include a periodic inventory review confirming that all policies, standards, and functional rules required for Agent Network Management / IFA management (by Group Corporate Rules and local regulation) are in place.
-
-- Compliance assessment — include a mechanism (e.g., annual self-assessment or compliance review) to verify that the content of local policies, standards, and procedures aligns with applicable Allianz Group Corporate Rules, Allianz Standards, and Functional Rules.
-
-- Named actor and frequency — specify who performs the review (e.g., IFA Management Head, Compliance function) and at what cadence (e.g., at least annually, and upon material regulatory or Group rule changes).
-
-- Communication and training element — incorporate the second element of the full Gov_3b definition: proper communication of the documented structure to all affected staff, including training sessions.
-
-- Defined scope — explicitly state which document categories fall within scope (policies, standards, functional rules, SOPs, process descriptions) rather than relying on non-exhaustive examples.
+A named actor or role (e.g., Head of IFA Management, Compliance Officer, Policy Owner) responsible for the control activity.
+A defined action describing what is performed — such as maintaining a governed policy register, conducting a periodic completeness review against a defined policy inventory, or performing a regulatory compliance mapping exercise.
+A stated trigger or frequency — for example, annual review cycle, triggered upon regulatory change, or upon material change to the IFA operating model.
+Completeness criteria — a defined inventory or framework specifying what policies, standards, and functional rules are required to govern IFA agent network management.
+A compliance-verification step — describing how existing documentation is assessed against applicable regulatory and internal requirements.
+A bounded scope — replacing "e.g." and "etc." with a defined population of documents or a reference to a maintained register.
+Alignment between the control name and description — if "Procedural Knowledge / Content Expertise" is within scope, the description must address how procedural knowledge and content expertise are maintained, verified, or evidenced.
+These are description-level refinements. They do not prescribe redesign of the underlying business process, but the current description does not contain enough substance to constitute a control statement.
 
 8. Open Questions for the Auditor
-
-- Scope of "operational structure documentation": Does the entity interpret this control as covering only Adonis process maps and org-level documentation, or does it extend to all policies, standards, and functional rules relevant to Agent Network Management? If the former, the control scope is narrower than the risk and the verdict would remain unchanged. If the latter, the control description should be amended to state this explicitly.
-
-- Companion controls: Is Gov_3b intended to be the sole control mitigating this risk, or is it one element of a broader control set (e.g., paired with a separate compliance-review control)? If paired controls exist, the partial-mitigation finding may be acceptable for this individual control, but the full risk coverage should be documented in the RACM. If Gov_3b is the sole control, the partial-mitigation verdict stands as a design gap.
-
-- Communication and training element: Was the omission of the communication/training element from the control description intentional, or was it an oversight in transcription from the SoG Guidance Paper? If the full Gov_3b definition applies, this should be reflected in the RACM entry.
-
-9. Methodology Compliance and References
-
-Per the System of Governance Controls Guidance Paper (April 2026), Slide 15: Gov_3b is defined as "Operational structure documentation and Procedural knowledge/content expertise: Up-to-date documentation of operational structure (e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.) and proper communication of the structure to all affected staff (including training sessions)." Governance Controls included in the Governance Section should be tested for every audit object.[1][2]
-
-The Guidance Paper further states that Internal Audit will independently test SoG Controls following key control testing criteria described in the Allianz Standard for Internal Audit (Standard Audit Manual, SAM).[1][2] The uploaded methodology document (Allianz UK SAM v2) does not appear to define specific control-design adequacy criteria for the purpose of this Gate 1 assessment; accordingly, the assessment above draws on general IA practice (IIA Standards, COSO) for the standard of what constitutes an adequate control description, clearly labelled as such.
+Is there an underlying control activity that this description is intended to summarize? If a defined review cycle, policy owner, or governance framework exists in practice but was not captured in the RACM description, the description should be rewritten to reflect the actual mechanism. If answered unfavorably (no underlying mechanism exists), the verdict remains Does Not Mitigate and the finding escalates from a documentation gap to a control-design gap.
+Does this control operate in conjunction with other controls that jointly address the three failure modes of the risk? If so, the partial-coverage gap may be mitigated at the risk level by the full control set, but this individual control's description would still require refinement to describe a testable mechanism. If answered unfavorably (this is the sole control for the risk), the risk is unmitigated.
+What is the intended scope of "Procedural Knowledge / Content Expertise" referenced in the control name? If this element is meant to be assessed under this control, the description must be expanded. If it is addressed by a separate control, the control naming may need clarification to avoid confusion during testing.
+9. Methodology Compliance & References
+The uploaded methodology document (Allianz UK SAM v2) was consulted for control-design adequacy criteria. The document could not be accessed with sufficient specificity to confirm whether it defines explicit standards for what constitutes an adequate control description in design-assessment terms. Accordingly, this assessment draws on general IA practice — specifically the principle that a control must describe a named actor performing a defined action at a stated frequency or trigger, and that the control's action must map to the specific failure pathway of the risk it purports to mitigate. This is consistent with IIA Standards and COSO Internal Control framework principles regarding control-activity design. This reliance on general practice is explicitly noted.
 
 10. Gate Status
-
-Gate 1: Not Passed. The control description, as provided, only partially mitigates the stated risk — the completeness and compliance dimensions are unaddressed, and the description lacks sufficient specificity for confident design-adequacy assessment. Gate 2 (DET/OET review) is not yet available in this tool.
-
-Sources:
-
-[1] System of Governance_Webex_April 2026_vf.pdf
-https://allianzms.sharepoint.com/sites/DE1890-connect-azse-group-legal/Shared%20Documents/Regulatory%20Governance/SoG%20WebEx%20Materials/2026/01_April%20(24th%20WebEx)/System%20of%20Governance_Webex_April%202026_vf.pdf
-
-[2] System of Governance_Webex_April 2026_vf.pptx
-https://allianzms.sharepoint.com/sites/DE1890-connect-azse-group-legal/_layouts/15/Doc.aspx?sourcedoc=%7BEF16D5A6-E665-4476-B0F1-4C1089D387CC%7D&file=System%20of%20Governance_Webex_April%202026_vf.pptx&action=edit&mobileredirect=true
+Gate 1: Not Passed. The control description does not describe a control mechanism and cannot be assessed as mitigating the stated risk. Gate 2 (DET/OET review) is not yet available in this tool.
