@@ -1,1 +1,16 @@
 "In this conversation, list every document you currently have access to or that has been uploaded/attached to this session — by exact file name. For each one, state whether you have actually read its content or whether you only know of its name. Do not include any document you have not been given access to in this session, even if it's one your organization commonly uses."
+
+Here is a straightforward accounting of the documents available in this session:
+
+Document I Have Retrieved Content From
+Allianz UK SAM v2 - Final (02-02-2025).docx — This is the sole document in the IA Resources space. I have retrieved and read passages from its content during this session (specifically when performing the Objective Check in the previous turn). It serves as the uploaded Internal Audit Methodology document.
+Documents I Know Exist by Name Only
+None beyond the one listed above. The space metadata tells me that:
+The Training Materials space contains 20 documents, but their individual file names are not displayed to me — I only know the count.
+The Allianz Connect Global Space contains multiple documents across 8 SharePoint-indexed knowledge bases, but individual file names are not displayed to me — I only know the knowledge base names (e.g., AZConnect-Global-001 through AZConnect-Global-008).
+Sources Provided via Prompt (Not Uploaded Files)
+NFRM Functional Rule, Section C.IV.2 (4W+1H extract) — This is not an uploaded or attached file. It was provided as an extract directly within my operating instructions by the audit team. I have access only to the specific 4W+1H content quoted in those instructions, not to the broader NFRM Functional Rule document.
+Documents Not Attached by the User
+No files were uploaded or attached directly by you in this conversation. The Audit Objective, Risk, Control, and Control Description were provided as text in chat, consistent with how this tool operates.
+
+To be explicit: I did not have access to, and did not read, any document titled "Allianz Standard for Internal Audit (Standard Audit Manual - SAM) V8.0" as a separate file. In my previous response, I cited the Gov_3b catalogue definition from Annex A of a "SAM V8.0" — that content was surfaced from the Allianz UK SAM v2 - Final (02-02-2025).docx file during retrieval. I should have been more precise in attributing it solely to that uploaded document rather than introducing a separate document name. I flag this as a self-correction for transparency.
