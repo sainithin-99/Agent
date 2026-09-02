@@ -17,101 +17,87 @@ Control :- Gov 3b_Operational Structure Documentation and Procedural Knowledge /
 
 Control description:- Up-to-date documentation of operational structure (e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.)
 
-0. Quick Summary
+Quick Summary
 
 - Verdict: Does Not Mitigate
 
 - Objective Check Status: Not Passed
 
-- Why (1 sentence): The control description is a condition statement asserting a desired end-state ("up-to-date documentation") with no named actor, no defined action, no frequency, and no evidence — it does not constitute a control mechanism that can be assessed as mitigating the stated risk.
+- Why: The control description is a condition statement asserting a desired end-state ("up-to-date documentation"), not a control activity with an actor, action, trigger, or method — it names no mechanism that could interrupt or detect the risk's failure pathway.
 
-- Top gaps:No actor (Who) or action verb — fails the Threshold Test for a control activity.No frequency, trigger, or review cycle (When) to ensure documentation remains current or compliant.No stated method or evidence generated (How), leaving nothing for a future effectiveness test to inspect.
+- Top gaps:No actor, action verb, frequency, or method is stated — the description fails all testable elements of the 4W+1H standard.The subject matter ("operational structure documentation") does not clearly map to the risk's concern ("policies, standards, and functional rules") — topical overlap is partial at best.No evidence type is named, leaving no basis for future testability.
 
 1. Restated Risk
 
-The risk is that policies, standards, and functional rules governing the audited function (Agent Network Management / IFA Management) may not exist, may be incomplete in their coverage of required topics, or may not comply with applicable regulatory or corporate requirements. This risk materialises through three distinct failure pathways: (a) absence of required governance documentation entirely, (b) existence of documentation that omits material requirements, and (c) existence of documentation that conflicts with or fails to meet mandatory standards.
+The risk is that policies, standards, and functional rules governing agent network management — including IFA sales steering, administration, remuneration, and recruitment — may not exist, may be incomplete, or may fail to comply with applicable requirements. The failure mode is a governance gap: the foundational documentation framework needed to direct, constrain, and standardise operational activities is either absent, deficient in coverage, or non-compliant with higher-order requirements.
 
 2. Restated Control Description
 
-The control description, as provided, states: "Up-to-date documentation of operational structure (e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.)." This asserts that documentation exists and is current. No actor is named, no action is described, no frequency or trigger is specified, and no evidence type is identified. The description is a statement of a desired condition rather than a description of a control activity.
-
-It is noted that per the Allianz Standard for Internal Audit (SAM) V8.0, Annex A, the full Gov_3b catalogue definition reads: "Up-to-date documentation of operational structure (e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.) and proper communication of the structure to all affected staff (including training sessions)." The second element — communication and training — is absent from the control description as provided.
+The control description states: "Up-to-date documentation of operational structure (e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.)." No actor is identified. No action is described. No trigger, frequency, or method is stated. The description asserts a desired condition — that documentation is current — without specifying any activity that brings about or verifies that condition.
 
 3. Mitigation Assessment
 
-Threshold Test determination: The control description is a condition statement, not a control activity. It asserts that documentation is "up-to-date" but names no actor performing any defined action at any specified time. It contains no action verb (e.g., "reviews," "updates," "approves") and no implied performer. Because the description fails the Threshold Test, the verdict cannot exceed Does Not Mitigate, regardless of topical overlap with the risk.
+Threshold Test: The control description is a condition statement, not a control activity. It asserts that documentation is "up-to-date" but contains no actor and no action verb. No person or function is named as performing anything, and no defined action (review, approval, update cycle, compliance check) is described. Per the threshold test protocol, the verdict cannot exceed Does Not Mitigate, regardless of topical overlap with the risk.
 
 Rating: Does Not Mitigate
 
-- Failure pathway (a) — non-existence of policies: The description implies documentation exists ("up-to-date documentation") but does not describe a control activity that verifies existence, creates documentation where absent, or triggers remediation when gaps are found.
+- The risk concerns three distinct failure modes: (1) non-existence of policies/standards/functional rules, (2) incompleteness of those documents, and (3) non-compliance of those documents with applicable requirements. The control description does not address any of these failure modes — it names no mechanism for ensuring documents exist, no process for checking completeness, and no procedure for verifying compliance.
 
-- Failure pathway (b) — incomplete policies: No mechanism is described for assessing completeness of documentation against a defined standard or requirements catalogue.
+- The subject matter itself is partially misaligned: "operational structure documentation" (e.g., organisational charts, process descriptions in Adonis) is not synonymous with "policies, standards, and functional rules." The parenthetical examples ("Corporate Rules/Policies, Adonis/Process descriptions") suggest some overlap, but the framing centres on operational structure rather than the governance documentation hierarchy the risk targets.
 
-- Failure pathway (c) — non-compliant policies: "Up-to-date" does not equate to "compliant." The description contains no reference to a compliance baseline, no comparison activity against applicable regulations or corporate requirements, and no action taken when non-compliance is identified.
-
-- Scope mismatch: The description references "operational structure" documentation (e.g., process descriptions, org-related corporate rules). The risk references "Policies, Standards and Functional Rules" — a broader governance-documentation scope. Whether "operational structure documentation" fully encompasses policies, standards, and functional rules is not established in the description.
+- No part of the risk's failure pathway is interrupted, detected, or prevented by this description as written.
 
 4. Control Type Consideration
 
-The description, as written, cannot be classified as either preventive or detective because no control activity is described. A condition statement does not prevent or detect anything — it asserts a state. Were the description rewritten as a control activity, the risk profile would benefit from both:
+- The control type cannot be determined. The description names no mechanism — neither a preventive action (e.g., mandatory review and approval before a policy is issued) nor a detective action (e.g., periodic compliance review of existing documentation against requirements). A condition statement does not have a control type.
 
-- A preventive element: a defined process ensuring documentation is created, updated, and reviewed for completeness and compliance before it is needed (e.g., a periodic policy review cycle with a named owner).
-
-- A detective element: a periodic check that identifies documentation gaps, staleness, or non-compliance after the fact.
-
-The risk's three failure modes — non-existence, incompleteness, and non-compliance — each require an active mechanism to address. A detective control alone would leave a window of exposure during which the function operates without adequate governance documentation.
+- The risk's failure modes would benefit from both preventive controls (ensuring policies are created and kept current through a defined governance cycle) and detective controls (periodic gap analysis or compliance review). Neither is present.
 
 5. Specificity Assessment (4W+1H)
 
 Per the NFRM Functional Rule, Section C.IV.2: a control description should specify what is monitored, why the control is necessary, who performs or owns it, when and how frequently it is carried out, and how it is carried out including the evidence generated.
 
-- What (subject monitored): Partially Stated — "documentation of operational structure" is named with examples (Corporate Rules/Policies, Adonis/Process descriptions), but the scope is bounded only by illustrative examples ("e.g.," "etc."), not by a definitive list. It is unclear whether this encompasses all policies, standards, and functional rules referenced in the risk.
+- What (subject monitored): Partially Stated — "operational structure documentation" is referenced with parenthetical examples, but the scope is not bounded or defined with specificity. It is unclear whether this encompasses all policies, standards, and functional rules relevant to the audit object, or only process descriptions and organisational documentation.
 
-- Why (linkage to the risk): Absent — no stated connection between maintaining up-to-date documentation and the risk of non-existing, incomplete, or non-compliant policies.
+- Why (linkage to the risk): Absent — no stated connection between this documentation and the risk of non-existing, incomplete, or non-compliant policies/standards/functional rules.
 
-- Who (actor/owner): Absent — no individual, role, or function is named as responsible for maintaining, reviewing, or approving the documentation.
+- Who (actor/owner): Absent — no individual, role, or function is named as responsible for performing any activity.
 
-- When (frequency/trigger): Absent — "up-to-date" implies currency but specifies no review cycle, trigger event, or defined frequency.
+- When (frequency/trigger): Absent — "up-to-date" implies currency but states no review cycle, trigger event, or defined frequency.
 
-- How (method and evidence generated): Absent — no method for ensuring documentation is current, complete, or compliant is described. No evidence type is named (e.g., review log, sign-off record, version-control history).
+- How (method and evidence generated): Absent — no method of maintaining, reviewing, or verifying currency is described. No evidence type is named, which would leave no artefact for a future effectiveness test to inspect.
 
-The description fails four of five elements outright and partially satisfies only one. Independent of the Mitigation Assessment verdict, the description does not meet the firm's 4W+1H standard for an adequate control description.
+Result: 0 of 5 elements Present; 1 Partially Stated; 4 Absent.
 
 6. Verdict
 
-Does Not Mitigate. The control description is a condition statement that names no actor, no action, no frequency, and no evidence. It does not describe a mechanism that interrupts, detects, or prevents any of the three failure pathways in the stated risk. Topical overlap between "operational structure documentation" and "policies, standards and functional rules" does not constitute mitigation.
+Does Not Mitigate. The control description is a condition statement with no actor, action, trigger, method, or evidence. It does not describe a mechanism that addresses the risk's failure pathway — non-existence, incompleteness, or non-compliance of policies, standards, and functional rules — and its subject matter is only partially aligned with the risk.
 
 7. Suggested Refinements
 
-The following refinements are structured around the 4W+1H elements found Absent or Partially Stated:
+The control description requires a fundamental rewrite from a condition statement to a defined control activity. Structured against the 4W+1H elements found Absent or Partially Stated:
 
-- What: Define the documentation scope explicitly — specify which policies, standards, functional rules, and process descriptions fall within this control's purview, rather than relying on open-ended examples. Confirm whether the scope is limited to operational-structure documentation or extends to the full governance-documentation set referenced in the risk.
+- What: Define the specific document population in scope — e.g., "all policies, standards, functional rules, and process descriptions governing IFA agent network management activities, including sales steering, remuneration, and recruitment."
 
-- Why: State the control's purpose in relation to the risk — e.g., "to ensure that all required policies, standards, and functional rules exist, are complete, and comply with applicable regulatory and corporate requirements."
+- Why: State the control's purpose — e.g., "to ensure the governance documentation framework is complete, current, and compliant with applicable Group and regulatory requirements."
 
-- Who: Name the responsible actor or role (e.g., "The Head of [Function] / Compliance Manager / Policy Owner reviews...").
+- Who: Name the responsible actor or role — e.g., "the Compliance/Governance function" or a named control owner.
 
-- When: Specify the review frequency or trigger (e.g., "annually," "upon regulatory change," "quarterly").
+- When: Specify a trigger or frequency — e.g., "annually, or upon material change to regulatory requirements or business processes."
 
-- How: Describe the method and the evidence generated — e.g., "conducts a gap analysis of current documentation against the applicable Corporate Rule Book and regulatory requirements, documenting the results in a policy review tracker with sign-off."
-
-- Communication element: The SAM catalogue definition of Gov_3b includes "proper communication of the structure to all affected staff (including training sessions)." If this element is intended to be part of the control, include it in the description with its own Who/When/How detail.
+- How: Describe the method and evidence — e.g., "by performing a documented completeness and compliance review of the policy register against applicable requirements, evidenced by a signed-off review report or checklist."
 
 8. Open Questions for the Auditor
 
-- Is there a more detailed control description available than the catalogue-level definition provided? A fuller description specifying the actor, frequency, method, and evidence may exist in the local RACM or control documentation. If so, the Threshold Test determination and verdict could change. If no such description exists, the verdict remains Does Not Mitigate.
+- Does a fuller catalogue definition exist for "Gov 3b"? The control name ("Operational Structure Documentation and Procedural Knowledge / Content Expertise") suggests a broader scope than the description provided. If a formal catalogue definition exists, it may contain the missing activity detail — its absence from this review means the assessment is based solely on the description as stated. Verdict impact if unfavourable: verdict remains Does Not Mitigate.
 
-- Does the intended scope of "operational structure documentation" encompass all policies, standards, and functional rules referenced in the risk, or is a separate control intended to cover the broader governance-documentation scope? If the risk is addressed by multiple controls in combination, the residual gap for this individual control's coverage may narrow — but the condition-statement deficiency would remain regardless.
+- Is the "operational structure documentation" referenced in the description intended to cover the same document population as "policies, standards, and functional rules" referenced in the risk? If these are distinct populations, the subject-matter misalignment is confirmed. Verdict impact if unfavourable: reinforces the Does Not Mitigate rating on scope-mismatch grounds.
 
-- Was the omission of the communication and training element from the Gov_3b description intentional? The SAM V8.0 Annex A catalogue definition includes this second component. If it is in scope, the control description should reflect it.
+- Are there companion controls addressing different elements of this risk (e.g., a separate control for compliance review or policy completeness)? If so, this control may be part of a control suite rather than a standalone mitigant, but that does not change the Objective Check verdict for this individual pairing. Verdict impact if unfavourable: no change to this control's individual verdict.
 
 9. Methodology Compliance & References
 
-Per the Allianz UK SAM v2 - Final (02-02-2025), Section on Design Effectiveness Testing (DET): the methodology requires assessing, among other criteria, whether "the control activity [is] designed to correctly mitigate the risk" and whether "the control [is] evidenced." The control description as provided does not describe a control activity and names no evidence, which would not satisfy these DET criteria.
-
-Per the NFRM Functional Rule, Section C.IV.2: a control description should specify what is monitored, why the control is necessary, who performs or owns it, when and how frequently it is carried out, and how it is carried out including the evidence generated. The description as provided fails four of five elements and partially satisfies one (What).
-
-The Allianz UK SAM v2 does not appear to define standalone "Objective Check" criteria separate from its DET assessment questions. The assessment above therefore applies the firm's 4W+1H standard (NFRM Functional Rule, Section C.IV.2) as the primary specificity benchmark and the DET design-mitigation question from the Allianz UK SAM v2 as supplementary confirmation. General IA practice (IIA Standards, COSO) was not required for this assessment.
+The uploaded methodology document — Allianz UK SAM v2 - Final (02-02-2025).docx — does not appear to define specific control-design adequacy criteria that would govern this Objective Check assessment. The assessment therefore draws on the NFRM Functional Rule, Section C.IV.2 (4W+1H standard) as confirmed firm methodology, supplemented by general IA practice (IIA Standards, COSO) for the threshold test and mitigation-mapping approach, clearly labelled as such throughout.
 
 10. Objective Check Status
 
@@ -119,8 +105,6 @@ Objective Check: Not Passed. DET and OET Check is not yet available in this tool
 
 11. Resources Referenced in This Response
 
-- Allianz UK SAM v2 - Final (02-02-2025) — uploaded Internal Audit Methodology document, cited for DET assessment criteria.
+- Allianz UK SAM v2 - Final (02-02-2025).docx — named to state that it does not appear to define specific control-design adequacy criteria for this assessment.
 
-- NFRM Functional Rule, Section C.IV.2 — 4W+1H extract provided in this prompt, cited for the control description specificity standard.
-
-- Allianz Standard for Internal Audit (Standard Audit Manual - SAM) V8.0 — cited for the Gov_3b catalogue definition in Annex A (to note the fuller definition includes a communication and training element omitted from the provided control description).
+- NFRM Functional Rule, Section C.IV.2 — the 4W+1H standard for adequate control descriptions, as provided in this prompt.
