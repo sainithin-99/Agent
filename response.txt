@@ -1,103 +1,92 @@
-
-Audit Objective :-
-
-The audit objective in the approved 2026 audit plan was:
-
-• To assess the governance and control effectiveness of agent network management including sales steering and target setting; sales support and administration; remuneration and incentive schemes; and sales excellence, recruitment and training. The audit will focus on Independent Financial Advisor (IFA) management.
-
-The audit will be performed as a catalogue audit.
-
-The audit object, per the Master Audit Universe is Agent Network Management including Contact Management.
-
-The audit work will encompass interviews with appropriate management and other staff members, as well as the review of processes and respective key documentation to assess the design and effectiveness of in scope processes and internal controls. The performance or outcome of the respective key processes and controls will be verified by means of operating effectiveness or substantive testing.
-
-Risk :- Non-existing, Incomplete, or Non-compliant Policies, Standards and Functional Rules.
-
-Control :- Gov 3b_Operational Structure Documentation and Procedural Knowledge / Content Expertise.
-
-Control description:- Up-to-date documentation of operational structure (e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.)
-
 Quick Summary
 
-- Verdict: Does Not Mitigate
+- Verdict: Partially Mitigates
 
 - Objective Check Status: Not Passed
 
-- Why: The control description is a condition statement asserting a desired end-state ("up-to-date documentation"), not a control activity with an actor, action, trigger, or method — it names no mechanism that could interrupt or detect the risk's failure pathway.
+- Why (1 sentence): The control addresses the "non-compliant" failure mode through annual alignment review, but provides no explicit mechanism for detecting the absence of required policies — a distinct failure mode named in the risk.
 
-- Top gaps:No actor, action verb, frequency, or method is stated — the description fails all testable elements of the 4W+1H standard.The subject matter ("operational structure documentation") does not clearly map to the risk's concern ("policies, standards, and functional rules") — topical overlap is partial at best.No evidence type is named, leaving no basis for future testability.
+- Top gaps:No stated mechanism for identifying non-existing policies (i.e., no gap analysis against a required-policy inventory derived from Functional Rules)The third sentence of the Control Description is a condition statement, not a control activity — it asserts a desired state without naming an actor or actionFrequency inconsistency: the description states "annually" but the control metadata classifies frequency as "Transactional"
 
 1. Restated Risk
 
-The risk is that policies, standards, and functional rules governing agent network management — including IFA sales steering, administration, remuneration, and recruitment — may not exist, may be incomplete, or may fail to comply with applicable requirements. The failure mode is a governance gap: the foundational documentation framework needed to direct, constrain, and standardise operational activities is either absent, deficient in coverage, or non-compliant with higher-order requirements.
+The risk is that policies, standards, and functional rules governing agent network management (specifically IFA management) either do not exist where required, are incomplete in their coverage of applicable requirements, or fail to comply with the relevant Functional Rules, Standards, and Policies mandated by the firm. Three distinct failure modes are embedded in a single risk statement: (a) complete absence of a required policy, (b) a policy that exists but does not fully address its required scope, and (c) a policy that exists but is misaligned with or contradicts the governing Functional Rules.
 
 2. Restated Control Description
 
-The control description states: "Up-to-date documentation of operational structure (e.g., Corporate Rules/Policies, Adonis/Process descriptions, etc.)." No actor is identified. No action is described. No trigger, frequency, or method is stated. The description asserts a desired condition — that documentation is current — without specifying any activity that brings about or verifies that condition.
+The AzP Retail Intermediaries Team reviews and approves local policies and guidelines at least annually — or more frequently where circumstances require — to confirm that those policies are in line with relevant Functional Rules, Standards, and Policies. Evidence of each review is recorded on the documents themselves and retained by the team. The description also asserts that required policies are hosted centrally and have been communicated to team members.
 
 3. Mitigation Assessment
 
-Threshold Test: The control description is a condition statement, not a control activity. It asserts that documentation is "up-to-date" but contains no actor and no action verb. No person or function is named as performing anything, and no defined action (review, approval, update cycle, compliance check) is described. Per the threshold test protocol, the verdict cannot exceed Does Not Mitigate, regardless of topical overlap with the risk.
+Threshold Test: The first two sentences describe a control activity — a named actor (AzP Retail Intermediaries Team) performing a defined action (reviews and approves) at a stated frequency (annually or more frequently). This passes the threshold test for a control mechanism. However, the third sentence — "Required policies and guidelines are hosted in a centralised location and have been appropriately communicated to all team members as required" — is a condition statement. It asserts a desired end-state (centralised hosting, appropriate communication) with no actor performing a specific action at a defined time. This condition statement does not constitute a separate control mechanism and cannot be credited as mitigating activity.
 
-Rating: Does Not Mitigate
+Rating: Partially Mitigates
 
-- The risk concerns three distinct failure modes: (1) non-existence of policies/standards/functional rules, (2) incompleteness of those documents, and (3) non-compliance of those documents with applicable requirements. The control description does not address any of these failure modes — it names no mechanism for ensuring documents exist, no process for checking completeness, and no procedure for verifying compliance.
+Failure-mode mapping:
 
-- The subject matter itself is partially misaligned: "operational structure documentation" (e.g., organisational charts, process descriptions in Adonis) is not synonymous with "policies, standards, and functional rules." The parenthetical examples ("Corporate Rules/Policies, Adonis/Process descriptions") suggest some overlap, but the framing centres on operational structure rather than the governance documentation hierarchy the risk targets.
+- Non-compliant policies (failure mode c): Directly addressed. The review-and-approve cycle explicitly confirms alignment with Functional Rules, Standards, and Policies. If performed as described, this mechanism would detect and correct non-compliance before policies remain in force in a misaligned state.
 
-- No part of the risk's failure pathway is interrupted, detected, or prevented by this description as written.
+- Incomplete policies (failure mode b): Indirectly and partially addressed. A review for alignment with Functional Rules could surface incompleteness if those Functional Rules specify required content. However, the Control Description does not state that completeness is an explicit review criterion — the stated objective is "to confirm they are in line with," which speaks to compliance rather than coverage scope.
+
+- Non-existing policies (failure mode a): Not addressed. The control's action object is "local policies and guidelines" — i.e., documents that already exist. There is no stated mechanism for identifying which policies are required by Functional Rules and then detecting gaps where a required policy has not been created. A review of existing policies, however thorough, cannot surface a document that does not exist.
+
+Scope-mismatch note: The condition statement in sentence three (centralised hosting and communication) addresses policy distribution and awareness — a legitimate operational concern, but one that sits outside the three failure modes stated in the risk. It does not contribute to the mitigation of non-existence, incompleteness, or non-compliance.
 
 4. Control Type Consideration
 
-- The control type cannot be determined. The description names no mechanism — neither a preventive action (e.g., mandatory review and approval before a policy is issued) nor a detective action (e.g., periodic compliance review of existing documentation against requirements). A condition statement does not have a control type.
+- Stated type: Preventive.
 
-- The risk's failure modes would benefit from both preventive controls (ensuring policies are created and kept current through a defined governance cycle) and detective controls (periodic gap analysis or compliance review). Neither is present.
+- Assessment: The described mechanism — an annual (or ad hoc) review of existing policies — is detective in character. It identifies misalignment after policies have been in force, rather than preventing misaligned policies from being published in the first instance. A genuinely preventive control for this risk would typically be a pre-publication approval gate (i.e., no policy goes live until reviewed and signed off against the governing Functional Rule). The description's "reviews and approves" language could imply such a gate, but the annual frequency and absence of a triggering event (e.g., "before publication" or "upon amendment") indicate a periodic look-back rather than a real-time gate.
+
+- Frequency inconsistency: The control metadata classifies frequency as "Transactional," implying event-driven execution. The description states "annually or more frequently where required." These are not equivalent. If the control is genuinely transactional (triggered each time a policy is created or amended), the description should say so and name the triggering event. If it is genuinely annual, the metadata should reflect a periodic frequency.
+
+- Exposure window: If the control operates only annually, there is up to a 12-month window during which a non-compliant, incomplete, or absent policy could remain undetected — a material exposure gap for a preventive classification.
 
 5. Specificity Assessment (4W+1H)
 
 Per the NFRM Functional Rule, Section C.IV.2: a control description should specify what is monitored, why the control is necessary, who performs or owns it, when and how frequently it is carried out, and how it is carried out including the evidence generated.
 
-- What (subject monitored): Partially Stated — "operational structure documentation" is referenced with parenthetical examples, but the scope is not bounded or defined with specificity. It is unclear whether this encompasses all policies, standards, and functional rules relevant to the audit object, or only process descriptions and organisational documentation.
+- What (subject monitored): Present. Local policies and guidelines, reviewed for alignment with relevant Functional Rules, Standards, and Policies.
 
-- Why (linkage to the risk): Absent — no stated connection between this documentation and the risk of non-existing, incomplete, or non-compliant policies/standards/functional rules.
+- Why (linkage to the risk): Partially Stated. The linkage to compliance/alignment is clear. The linkage to detecting non-existing or incomplete policies is not articulated — the "why" covers only one of the three failure modes in the risk.
 
-- Who (actor/owner): Absent — no individual, role, or function is named as responsible for performing any activity.
+- Who (actor/owner): Present. AzP Retail Intermediaries Team is named as the performing actor.
 
-- When (frequency/trigger): Absent — "up-to-date" implies currency but states no review cycle, trigger event, or defined frequency.
+- When (frequency/trigger): Partially Stated. "Annually" provides a base frequency, but "more frequently where required" is open-ended — no trigger conditions are defined for the ad hoc cycle. Additionally, the stated "Transactional" metadata frequency is inconsistent with the annual description.
 
-- How (method and evidence generated): Absent — no method of maintaining, reviewing, or verifying currency is described. No evidence type is named, which would leave no artefact for a future effectiveness test to inspect.
-
-Result: 0 of 5 elements Present; 1 Partially Stated; 4 Absent.
+- How (method and evidence generated): Partially Stated. The action is described at a high level (reviews and approves; evidence recorded on documents and retained). However, the review method is not specified (e.g., comparison against a checklist derived from Functional Rules, line-by-line gap analysis). The evidence type is generic ("recorded on the documents") — no specific evidence artifact is named (e.g., a version-controlled review log, a signed approval record, a compliance checklist).
 
 6. Verdict
 
-Does Not Mitigate. The control description is a condition statement with no actor, action, trigger, method, or evidence. It does not describe a mechanism that addresses the risk's failure pathway — non-existence, incompleteness, or non-compliance of policies, standards, and functional rules — and its subject matter is only partially aligned with the risk.
+Partially Mitigates. The control addresses the non-compliance failure mode but provides no mechanism for detecting non-existing policies and only implicitly touches incompleteness. The condition statement in the third sentence does not constitute an additional control activity.
 
 7. Suggested Refinements
 
-The control description requires a fundamental rewrite from a condition statement to a defined control activity. Structured against the 4W+1H elements found Absent or Partially Stated:
+Structured against the gaps identified in the Specificity Assessment and Mitigation Assessment:
 
-- What: Define the specific document population in scope — e.g., "all policies, standards, functional rules, and process descriptions governing IFA agent network management activities, including sales steering, remuneration, and recruitment."
+- Address the "non-existing" failure mode: Add a control step in which the AzP Retail Intermediaries Team maintains or references a required-policy inventory (derived from applicable Functional Rules) and, at each review cycle, confirms that a current policy exists for each required item. Without this, one-third of the stated risk has no mitigating mechanism.
 
-- Why: State the control's purpose — e.g., "to ensure the governance documentation framework is complete, current, and compliant with applicable Group and regulatory requirements."
+- Why — expand the stated objective: Amend the purpose clause to explicitly include completeness and existence checks, not only alignment — e.g., "to confirm that all required policies exist, are complete in scope, and are in line with relevant Functional Rules, Standards, and Policies."
 
-- Who: Name the responsible actor or role — e.g., "the Compliance/Governance function" or a named control owner.
+- When — define the ad hoc trigger: Replace "more frequently where required" with a named triggering event (e.g., "upon issuance of new or amended Functional Rules," "upon material regulatory change," or "upon publication of a new policy").
 
-- When: Specify a trigger or frequency — e.g., "annually, or upon material change to regulatory requirements or business processes."
+- When — resolve the frequency inconsistency: Align the control metadata (Transactional) with the description (annual), or amend the description to state the transactional trigger if the control is indeed event-driven.
 
-- How: Describe the method and evidence — e.g., "by performing a documented completeness and compliance review of the policy register against applicable requirements, evidenced by a signed-off review report or checklist."
+- How — specify the review method and evidence: Name the method (e.g., "comparison against a compliance checklist derived from the applicable Functional Rule") and the evidence artifact (e.g., "evidenced by a dated and signed review checklist retained in [named repository]").
+
+- Third sentence — convert the condition statement to a control activity: If centralised hosting and communication are intended as control elements, rewrite to name the actor, action, and trigger (e.g., "Upon approval, the AzP Retail Intermediaries Team publishes updated policies to [named central repository] and issues a communication to all team members via [named channel], evidenced by [named evidence]").
 
 8. Open Questions for the Auditor
 
-- Does a fuller catalogue definition exist for "Gov 3b"? The control name ("Operational Structure Documentation and Procedural Knowledge / Content Expertise") suggests a broader scope than the description provided. If a formal catalogue definition exists, it may contain the missing activity detail — its absence from this review means the assessment is based solely on the description as stated. Verdict impact if unfavourable: verdict remains Does Not Mitigate.
+- Does the AzP Retail Intermediaries Team maintain or reference a required-policy inventory against Functional Rules? If yes and this is simply not captured in the description, the "non-existing" gap may be a documentation deficiency rather than a design deficiency. If no, the gap is a genuine design gap. Verdict impact if answered unfavorably: verdict remains Partially Mitigates or could move to Does Not Mitigate if the non-existence failure mode is the dominant risk concern.
 
-- Is the "operational structure documentation" referenced in the description intended to cover the same document population as "policies, standards, and functional rules" referenced in the risk? If these are distinct populations, the subject-matter misalignment is confirmed. Verdict impact if unfavourable: reinforces the Does Not Mitigate rating on scope-mismatch grounds.
+- Is the control genuinely transactional (triggered by policy creation/amendment events) or periodic (annual)? The answer determines whether the frequency inconsistency is a metadata error or a description error. Verdict impact: does not change the current verdict, but affects the refinement direction and the control type assessment.
 
-- Are there companion controls addressing different elements of this risk (e.g., a separate control for compliance review or policy completeness)? If so, this control may be part of a control suite rather than a standalone mitigant, but that does not change the Objective Check verdict for this individual pairing. Verdict impact if unfavourable: no change to this control's individual verdict.
+- What is the actual review method used in practice? If a structured compliance checklist exists but is not reflected in the description, the specificity gaps may be narrower than assessed. Verdict impact: could improve How from Partially Stated to Present if confirmed and documented.
 
 9. Methodology Compliance & References
 
-The uploaded methodology document — Allianz UK SAM v2 - Final (02-02-2025).docx — does not appear to define specific control-design adequacy criteria that would govern this Objective Check assessment. The assessment therefore draws on the NFRM Functional Rule, Section C.IV.2 (4W+1H standard) as confirmed firm methodology, supplemented by general IA practice (IIA Standards, COSO) for the threshold test and mitigation-mapping approach, clearly labelled as such throughout.
+The uploaded methodology document (Allianz UK SAM v2 - Final (02-02-2025).docx) does not appear to define specific control-design adequacy criteria applicable to this Objective Check assessment. The 4W+1H specificity standard applied in this review is drawn from the NFRM Functional Rule, Section C.IV.2, as provided directly to this prompt by the audit team. The mitigation-assessment logic (failure-mode mapping, threshold test, control-type consideration) draws on general IA practice (IIA Standards, risk-based auditing principles), clearly labeled as such.
 
 10. Objective Check Status
 
@@ -107,4 +96,6 @@ Objective Check: Not Passed. DET and OET Check is not yet available in this tool
 
 - Allianz UK SAM v2 - Final (02-02-2025).docx — named to state that it does not appear to define specific control-design adequacy criteria for this assessment.
 
-- NFRM Functional Rule, Section C.IV.2 — the 4W+1H standard for adequate control descriptions, as provided in this prompt.
+- NFRM Functional Rule, Section C.IV.2 (4W+1H extract as provided in this prompt) — used as the primary specificity standard for the Specificity Assessment.
+
+- General IA practice (IIA Standards, risk-based auditing principles) — used for mitigation-assessment logic and control-type consideration where the methodology document is silent; clearly labeled as such.
