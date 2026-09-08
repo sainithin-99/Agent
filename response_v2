@@ -1,0 +1,91 @@
+Quick Summary
+
+- Threshold Finding: Control activity described — a named actor (AzP Partnerships Director) performs a defined action (development and annual review of a formal strategy document) at a stated frequency (yearly).
+
+- Risk Coverage: Addresses 1 of 4 distinct failure modes explicitly (existence of a sales steering strategy); 3 not clearly addressed (target setting framework, FCA regulatory alignment, agent identification and appointment mechanism).
+
+- Key Observation (1 sentence): The control describes a high-level intermediaries strategy document but does not reference the target setting framework, FCA regulatory requirements, or the specific mechanism for identifying and appointing new agents that the risk identifies as failure pathways.
+
+- Top gaps:No reference to a target setting framework for agent identification and appointmentNo reference to FCA regulatory requirements for agent appointmentNo evidence type or governance approval process named for the annual strategy review
+
+1. Restated Risk
+
+The risk is that the absence of, or insufficient definition of, both a sales steering strategy and a target setting framework — specifically designed to identify and appoint new agents in line with growth objectives and FCA regulatory requirements — may result in an inability to achieve business targets and revenue growth objectives. The failure pathway is twofold: first, strategic direction for the agent distribution channel may be absent or insufficiently articulated; second, even if a strategy exists, the absence of a structured target setting framework means there is no defined mechanism to translate that strategy into actionable agent identification, appointment, and growth activity that satisfies both commercial and regulatory requirements. The risk is classified as Operational Risk and Strategic Risk.
+
+2. Restated Control Description
+
+The AzP Partnerships Director owns the development and annual review of the AzP Intermediaries Strategy, a formal strategy document aligned to AzUK and AzP Retail strategies. The document defines high-level principles and an approach for managing the agent distribution channel across three pillars (Simpler, Smarter, Stronger) and establishes a vision and mission for intermediary channel growth, driving alignment between the AzP Partnerships team's objectives and broader AzUK business objectives. The control is stated as preventive, manual, and yearly in frequency.
+
+3. Gap Analysis
+
+Threshold Test: The description reads as a control activity — a named actor (AzP Partnerships Director) performs a defined action (develops and annually reviews a formal strategy document) at a stated frequency (yearly). This clears the threshold for failure-mode mapping.
+
+Failure-mode-by-failure-mode mapping:
+
+- Failure Mode 1 — Lack of/insufficiently defined sales steering strategy: Appears to address. The control describes the existence, development, and annual review of a formal intermediaries strategy document that defines principles and an approach for managing the agent distribution channel. This directly speaks to ensuring a sales steering strategy exists and is maintained.
+
+- Failure Mode 2 — Lack of/insufficiently defined target setting framework: Not addressed. The control description contains no reference to a target setting framework, quantitative targets, KPIs, metrics, or any structured mechanism for translating the strategy into specific objectives for identifying and appointing new agents. The risk explicitly names this as a distinct failure pathway alongside the strategy itself.
+
+- Failure Mode 3 — Alignment with growth objectives: Partially addressed. The description references alignment with AzUK and AzP Retail strategies and alignment between team objectives and broader business objectives, but this is stated at the vision/mission level. No reference is made to specific growth targets, revenue objectives, or how the strategy's content is calibrated to defined growth parameters.
+
+- Failure Mode 4 — Alignment with FCA regulatory requirements: Not addressed. The control description contains no reference to FCA requirements, regulatory obligations for agent appointment, or any mechanism to ensure the strategy incorporates applicable regulatory standards for the intermediary channel.
+
+- Scope-mismatch observation: The control's three-pillar framework (Simpler, Smarter, Stronger) and its focus on "vision and mission" and "unified direction" suggest the document may operate at a level of abstraction above the operational mechanisms the risk describes (target setting, agent identification and appointment, regulatory alignment). This is not itself a gap but is noted as context for the auditor's assessment of whether the strategy document's scope is pitched at the right level to address this risk.
+
+4. Control Type Consideration
+
+The control is stated as preventive. A preventive classification is consistent with a strategy document that establishes direction before operational activity begins — it would, in principle, prevent the absence of strategic direction by ensuring a formally documented strategy exists. However, the control as described is more accurately characterised as a directive control (establishing principles and approach through a formal document) than a preventive control in the traditional sense (which would interrupt a specific error or transaction before it occurs). This distinction is noted as an observation for the auditor to weigh — a directive control of this nature sets the framework but does not itself prevent the absence of a target setting mechanism or regulatory alignment unless those elements are within its documented scope, which the current description does not confirm.
+
+5. Specificity Assessment (4W+1H)
+
+Per the NFRM Functional Rule, Section C.IV.2: a control description should specify what is monitored, why the control is necessary, who performs or owns it, when and how frequently it is carried out, and how it is carried out including the evidence generated.
+
+- What (subject monitored): Present — the AzP Intermediaries Strategy document, covering high-level principles and approach for managing the agent distribution channel across three pillars.
+
+- Why (linkage to the risk): Partially Stated — the description explains the strategy's purpose in terms of establishing a unified vision and driving alignment with broader business objectives, but does not explicitly state the linkage to the specific risk failure modes (absence of target setting framework, FCA regulatory compliance, agent identification and appointment). The "why" is framed in terms of the strategy's own objectives rather than its role in mitigating this specific risk.
+
+- Who (actor/owner): Present — the AzP Partnerships Director is named as the owner responsible for development and annual review.
+
+- When (frequency/trigger): Present — annual review is stated and the control frequency is recorded as yearly. No specific trigger or calendar timing is named (e.g., "in Q4 aligned to the annual planning cycle"), but the frequency itself is stated.
+
+- How (method and evidence generated): Partially Stated — "development and annual review" is named as the method, and the output is described as a "formal strategy document." However, no evidence type is named for the review process itself (e.g., board or committee approval minutes, sign-off records, version-controlled document history). The description does not specify how the review is conducted (e.g., stakeholder consultation, data-driven review of prior-year performance, gap analysis against objectives). The absence of a named evidence type is noted for future DET/OET readiness.
+
+Per Allianz UK SAM v2 - Final (02-02-2025).docx, Section D.VII (Controls): "Control descriptions should articulate what is done, when it is done, who is doing it, how it manages the risk and how it is evidenced." The "how it manages the risk" element overlaps with the "Why" finding above; the "how it is evidenced" element aligns with the evidence gap noted under "How."
+
+6. Suggested Refinements
+
+The following refinements are structured around the gaps identified above. These are options for the auditor to consider, not requirements to satisfy a verdict this tool does not issue.
+
+- Target setting framework (Failure Mode 2 — Not Addressed): Closing this gap would require either (a) adding to the control description a reference to the target setting framework as a defined component of the strategy or a linked control, or (b) identifying a separate control that addresses target setting and mapping it to this risk. The risk names the strategy and the target setting framework as two distinct elements; the control currently addresses only the first.
+
+- FCA regulatory alignment (Failure Mode 4 — Not Addressed): Closing this gap would require adding a reference to how the strategy incorporates or is informed by FCA regulatory requirements for agent appointment, or identifying a separate control that provides this coverage.
+
+- Why — explicit risk linkage: Strengthening the "Why" element would require stating explicitly how the strategy document addresses the risk of failing to identify and appoint agents in line with growth and regulatory objectives, rather than framing the purpose solely in terms of the strategy's own vision.
+
+- How — evidence generated: Naming the evidence type for the annual review process (e.g., committee approval minutes, signed-off version, documented review output) would strengthen the description's testability for any future effectiveness review.
+
+- Growth objectives — specificity (Failure Mode 3 — Partially Addressed): Closing this gap fully would require specifying how the strategy's content is calibrated to defined growth parameters or business targets, rather than stating alignment at the vision level only.
+
+7. Open Questions for the Auditor
+
+- Does the AzP Intermediaries Strategy document itself contain a target setting framework or quantitative targets for agent identification and appointment? If so, amending the control description to reference this content would close Failure Mode 2 without requiring a separate control. If not, this confirms a coverage gap for this risk.
+
+- Is there a separate control in the RACM that addresses the target setting framework and/or FCA regulatory alignment for agent appointment? If the risk is intended to be mitigated by a suite of controls rather than this single control, the gap findings above may be addressed by other controls in the matrix, and this control's scope may be intentionally limited to the strategic direction element only.
+
+- Does the annual strategy review follow a defined governance process (e.g., committee presentation, ExCo sign-off)? If so, naming this process and its evidence output in the control description would address the "How" gap and strengthen future testability.
+
+- Is the three-pillar framework (Simpler, Smarter, Stronger) a firm-defined strategic framework with documented sub-components? If a fuller definition exists, several of the gaps noted above (particularly target setting and regulatory alignment) may already be addressed within the pillar definitions and not reflected in this description.
+
+8. Methodology Compliance & References
+
+Per Allianz UK SAM v2 - Final (02-02-2025).docx, Section D.VII (Controls): "Control descriptions should articulate what is done, when it is done, who is doing it, how it manages the risk and how it is evidenced." This standard was applied alongside the 4W+1H framework in the Specificity Assessment. The SAM's control description standard is consistent with the NFRM Functional Rule, Section C.IV.2 framework, with the SAM's "how it manages the risk" mapping to the "Why" element and "how it is evidenced" mapping to the evidence component of "How."
+
+The uploaded methodology document does not appear to define specific criteria for assessing the alignment between a control description and a risk description at the Objective Check level (i.e., the failure-mode mapping performed in Section 3 above). The failure-mode mapping methodology applied in this assessment draws on general IA practice (risk-based auditing principles requiring controls to address the specific failure mechanisms identified in the risk), clearly labelled as such.
+
+DET and OET Check is a planned next step not yet available in this tool.
+
+9. Resources Referenced in This Response
+
+- Allianz UK SAM v2 - Final (02-02-2025).docx — cited for Section D.VII (Controls) control description standard and for confirming the document does not define Objective Check-level alignment criteria.
+
+- NFRM Functional Rule, Section C.IV.2 (4W+1H extract as provided in this prompt) — cited for the five-element control description standard applied in the Specificity Assessment.
