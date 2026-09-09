@@ -1,75 +1,77 @@
 Quick Summary
 
-- Initial Observation: Control activity described — a named actor (AzP Partnerships Director) performing defined actions (development and annual review) on a named document (AzP Intermediaries Strategy).
+- Initial Observation: Control activity described — a named actor, defined action, and annual frequency are present.
 
-- Risk Coverage: Appears to address 1 of 4 risk components explicitly (existence of a sales steering strategy); 3 not clearly addressed (target setting framework, agent identification/appointment aligned to growth objectives, FCA regulatory requirements).
+- Risk Coverage: 1 Addressed, 1 Partially Addressed, 2 Not Addressed
 
-- Key Observation (1 sentence): The control description addresses the existence of a high-level intermediary strategy but does not reference the target setting framework, FCA regulatory requirements, or agent identification and appointment mechanisms that the Risk Description explicitly names.
+- Key Observation (1 sentence): The control establishes a formal intermediaries strategy but the description does not reference a target setting framework or FCA regulatory requirements, both of which are distinct components of the stated risk.
 
-- Observation 1: The target setting framework — a distinct and explicitly named risk component — is absent from the control description.
+- Observation 1: The target setting framework named in the risk has no corresponding element in the control description.
 
-- Observation 2: FCA regulatory requirements for agent identification and appointment are not referenced anywhere in the control description.
+- Observation 2: FCA regulatory requirements for agent identification and appointment are absent from the control description.
 
-- Observation 3: How the control activity is carried out and what evidence it generates are not described (Absent under the 4W+1H standard).
+- Observation 3: The "How" element of the 4W+1H standard is absent — the description does not specify the method of development or review, nor any evidence generated.
 
 1. Observations
 
-Initial Observation: The control description reads as a control activity, not a condition statement. A named actor (AzP Partnerships Director) performs defined actions (development and annual review) at a stated frequency (annual) on a named object (AzP Intermediaries Strategy). This is a factual finding; the risk-component mapping follows.
+Initial Observation: The control description reads as a control activity, not a condition statement. It names an actor (AzP Partnerships Director), a defined action (owns the development and annual review), and a frequency (yearly).
 
 Risk-component mapping:
 
-- Sales steering strategy (existence) — Appears to address. The control describes the development and annual review of a formally documented strategy covering "high-level principles and approach for managing the agent distribution channel." The description confirms a strategy document exists and is periodically refreshed.
+- Addressed — Defined sales steering strategy: The control describes a formal, documented strategy (AzP Intermediaries Strategy) defining high-level principles and approach for managing the agent distribution channel, aligned to AzUK and AzP Retail strategies. This corresponds directly to the risk's concern about an absent or insufficiently defined sales steering strategy.
 
-- Target setting framework — Not addressed. The Risk Description names "target setting framework" as a distinct component alongside the sales steering strategy. The control description does not reference target setting, performance metrics, KPIs, or any framework for establishing quantitative or qualitative targets.
+- Not Addressed — Target setting framework: The risk explicitly names a "target setting framework" as a distinct component of the failure mechanism. The control description references high-level principles, vision, mission, and strategic alignment but does not describe any mechanism for setting targets, KPIs, performance metrics, or quantified growth benchmarks. If such a framework exists within or alongside the AzP Intermediaries Strategy, it is not reflected in this description.
 
-- Identification and appointment of new agents aligned to growth objectives — Not clearly addressed. The description references "intermediary channel growth" and "managing the agent distribution channel," but names no mechanism, criteria, or process for identifying or appointing new agents. Strategic direction is referenced; the operational pathway to agent identification and appointment is not described.
+- Partially Addressed — Identification and appointment of new agents in line with growth objectives: The control references "intermediary channel growth" and alignment with broader business objectives, which implies directional intent toward agent network expansion. However, the description does not specify any mechanism, criteria, or process for identifying and appointing new agents — the specific failure pathway the risk describes.
 
-- FCA regulatory requirements — Not addressed. The Risk Description explicitly names FCA regulatory requirements as a condition for agent identification and appointment. The control description contains no reference to FCA requirements, regulatory compliance, or regulatory alignment.
-
-Scope-mismatch observation: A portion of the control description — the three strategic pillars (Simpler, Smarter, Stronger) and alignment with AzUK/AzP Retail strategies — describes strategic architecture that may or may not relate to the specific risk components above. Without further definition of what these pillars encompass, their relevance to the stated risk cannot be confirmed from the description alone. If a fuller catalogue definition of B.1 exists that elaborates on these pillars, several of these observations may already be addressed in content not reflected in this description.
+- Not Addressed — Alignment with FCA regulatory requirements: The risk explicitly references FCA regulatory requirements for identifying and appointing agents. The control description contains no reference to FCA, regulatory compliance, or regulatory alignment of any kind. If the strategy does incorporate regulatory considerations, this is not captured in the description as written.
 
 2. Control Type Consideration
 
-The control is classified as preventive, which is logically consistent — establishing and maintaining a formal strategy document in advance should prevent the scenario where no defined strategy exists. As a yearly control, there is a 12-month window between reviews during which the strategy may become misaligned with evolving business conditions, growth targets, or regulatory changes. Whether this annual frequency creates an exposure window the Audit Objective would be concerned with is an observation for the auditor to weigh, not a determination made here.
+The control is classified as preventive and operates annually. A preventive strategy-level control is appropriate in principle — establishing the strategic direction before operational decisions are made can prevent misalignment with growth objectives. However, the annual frequency means any strategic gap, regulatory change, or target misalignment identified mid-year would not be addressed until the next review cycle. Given that FCA requirements for agent appointment may evolve during the year and business targets may require mid-year recalibration, the annual cycle creates a potential exposure window between reviews. This is noted as an observation for the auditor's consideration, not a finding on effectiveness.
 
 3. Specificity Assessment (4W+1H)
 
 Per the NFRM Functional Rule, Section C.IV.2: a control description should specify what is monitored, why the control is necessary, who performs or owns it, when and how frequently it is carried out, and how it is carried out including the evidence generated.
 
-- What (subject monitored) — Partially Stated. The control names the document (AzP Intermediaries Strategy) and states it defines "high-level principles and approach," but does not specify what specific elements within the strategy are subject to the annual review (e.g., whether growth targets, agent appointment criteria, or regulatory compliance elements are within scope).
+- What (subject monitored): Present — the AzP Intermediaries Strategy document, covering the agent distribution channel across three core pillars (Simpler, Smarter, Stronger).
 
-- Why (linkage to the risk) — Partially Stated. Alignment with AzUK and AzP Retail strategies is referenced, and driving alignment between AzP Partnerships team objectives and broader business objectives is stated. However, the explicit linkage to the risk's stated failure pathway — particularly the target setting framework and FCA regulatory requirements — is not articulated.
+- Why (linkage to risk): Partially Stated — the description references alignment with broader AzUK business objectives and intermediary channel growth, which partially addresses the risk's concern about achieving business targets. However, it does not reference the target setting framework or FCA regulatory requirements — two of the four risk components lack an explicit linkage in the description.
 
-- Who (actor/owner) — Present. The AzP Partnerships Director is named as the owner of the development and annual review.
+- Who (actor/owner): Present — the AzP Partnerships Director.
 
-- When (frequency/trigger) — Present. Annual review is stated.
+- When (frequency/trigger): Present — annual development and review.
 
-- How (method and evidence) — Absent. The description does not state how the development or review is carried out (e.g., what inputs are considered, what review steps are performed, what governance or approval mechanism is required). No evidence type is named (e.g., documented sign-off, board or committee approval minutes, version-controlled strategy document). This matters for future DET/OET readiness even though DET and OET review is not yet available in this tool.
+- How (method and evidence): Absent — the description does not specify how the strategy is developed or reviewed (e.g., what inputs inform the review, what governance or approval process applies), nor does it name any evidence generated (e.g., committee or board approval minutes, version-controlled document, sign-off records). This absence is noted independently of the risk-coverage findings above; it matters for future DET/OET readiness even though DET and OET Check is not yet available in this tool.
+
+This assessment is consistent with the Allianz UK SAM v2 - Final (02-02-2025).docx, Section D.VII (Controls), which states that control descriptions should articulate what is done, when it is done, who is doing it, how it manages the risk, and how it is evidenced.
 
 4. Suggested Refinement(s)
 
-Addressing the observations above would require consideration of the following, framed as options for the auditor:
+The following are options for the auditor to consider — not requirements to satisfy a verdict, since none is issued:
 
-- Target setting framework: Specify whether the AzP Intermediaries Strategy includes or is complemented by a target setting framework, or whether target setting is addressed by a separate control. If included, the control description should state this explicitly.
+- Target setting framework (Not Addressed): Addressing this observation would require specifying whether the AzP Intermediaries Strategy contains or is complemented by a target setting framework — and if so, describing what targets are set, how they are determined, and how they align with growth objectives.
 
-- FCA regulatory alignment: Specify whether FCA regulatory requirements for agent identification and appointment are considered within the strategy or its review process. If this is addressed elsewhere in the control framework, cross-referencing would clarify the coverage.
+- Identification and appointment of new agents (Partially Addressed): Addressing this observation would require specifying the mechanism, criteria, or process the strategy defines for identifying and appointing new agents, if the strategy addresses this operationally.
 
-- Agent identification and appointment: Clarify whether the strategy defines criteria or processes for identifying and appointing new agents aligned to growth objectives, or whether this operational mechanism is addressed by a downstream control.
+- FCA regulatory requirements (Not Addressed): Addressing this observation would require referencing how the strategy incorporates or aligns with FCA regulatory requirements for agent identification and appointment. If a separate control addresses FCA alignment, the auditor may wish to note that rather than amending this description.
 
-- How (method and evidence): Describe the review process — what inputs are considered, what governance or approval mechanism applies, and what evidence is generated (e.g., documented approval, committee minutes, version-controlled strategy document with sign-off).
+- How / Evidence (Absent): Addressing this observation would require specifying how the strategy is developed and reviewed (e.g., inputs considered, governance approval steps), and what evidence is generated (e.g., committee approval record, version-controlled document, documented sign-off).
 
-- What (scope of review): Specify which elements within the strategy document are subject to the annual review, to distinguish between a full strategic refresh and a confirmation of continued applicability.
+- Why / Risk linkage (Partially Stated): Addressing this observation would require explicitly stating the risk the strategy is designed to address, including the target setting and regulatory dimensions alongside the growth alignment already referenced.
 
 5. Methodology Compliance & References
 
-Per Allianz UK SAM v2 - Final (02-02-2025).docx, Section D.VII (Controls): "Control descriptions should articulate what is done, when it is done, who is doing it, how it manages the risk and how it is evidenced." The control description partially meets this standard — it states who (AzP Partnerships Director) and when (annually), partially states what (the strategy document, but not the specific elements reviewed), does not clearly articulate how the control manages the risk for all stated risk components, and does not describe how the control activity is evidenced.
+Per the Allianz UK SAM v2 - Final (02-02-2025).docx, Section D.VII (Controls): "Control descriptions should articulate what is done, when it is done, who is doing it, how it manages the risk and how it is evidenced." The control description for B.1 satisfies the "what," "who," and "when" elements of this standard. The "how it manages the risk" element is partially satisfied (growth alignment is present; target setting and FCA alignment are absent). The "how it is evidenced" element is not satisfied.
 
-Per the NFRM Functional Rule, Section C.IV.2: the 4W+1H standard requires What, Why, Who, When, and How (including evidence generated). Two elements are Present (Who, When), two are Partially Stated (What, Why), and one is Absent (How).
+The NFRM Functional Rule, Section C.IV.2 (4W+1H framework) was also applied as the primary specificity checklist, consistent with its status as confirmed firm methodology.
+
+The uploaded methodology document does not appear to define separate, standalone control-description completeness criteria beyond the articulation standard quoted above. The 4W+1H framework from the NFRM Functional Rule provides the more detailed element-by-element standard used in this assessment; general IA practice was not required.
 
 6. Resources Referenced in This Response
 
-- Allianz UK SAM v2 - Final (02-02-2025).docx — cited for control description completeness criteria (Section D.VII, Controls).
+- Allianz UK SAM v2 - Final (02-02-2025).docx — cited for control description articulation standard (Section D.VII, Controls)
 
-- NFRM Functional Rule, Section C.IV.2 — cited for the 4W+1H standard for an adequate control description (as provided in this prompt by the audit team).
+- NFRM Functional Rule, Section C.IV.2 — cited for the 4W+1H control description standard (as provided in this prompt)
 
-DET and OET review is a planned next step not yet available in this tool.
+DET and OET Check is a planned next step not yet available in this tool. The Objective Check for control B.1 is complete — the observations above are provided for the auditor's professional judgment.
