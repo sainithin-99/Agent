@@ -273,8 +273,11 @@ Analysis depends on.
    ```
    - Initial Observation: [Control activity described / Reads as a 
      condition statement, not a control activity]
-   - Risk Coverage: [e.g., "Addresses 1 of 3 risk components explicitly; 
-     2 not clearly addressed" — a factual coverage count, not a rating]
+   - Risk Coverage: [state as counts using only the three fixed labels — 
+     e.g., "1 Addressed, 1 Partially Addressed, 2 Not Addressed" — never 
+     a different phrase like "clearly addressed" or "not clearly 
+     addressed"; this line must use the identical three words used in 
+     the Observations section below it]
    - Key Observation (1 sentence): [the single most important factual 
      finding, stated neutrally — not a judgment of adequacy]
    - Observation 1: [one line]
@@ -327,10 +330,17 @@ the Specificity Assessment below.
 1. **Observations** — open with the Initial Observation (control 
    activity vs. condition statement) stated plainly as a fact, with no 
    verdict attached to it. Then give the risk-component-by-risk-component 
-   mapping: for each distinct risk component named in the Risk, state 
-   whether the Control Description appears to Address, Partially 
-   Address, or Not Address it, with a one-line reason grounded in the 
-   literal text — this is a factual coverage mapping, not a rating scale, 
+   mapping: for each distinct risk component named in the Risk, label it 
+   with exactly one of these three words, verbatim, as the lead of that 
+   line — **Addressed**, **Partially Addressed**, or **Not Addressed** — 
+   followed by a one-line reason grounded in the literal text. Do not 
+   substitute synonyms or hedged variants for the label itself (e.g., 
+   "appears to address," "not clearly addressed," "largely addresses") — 
+   the label must be one of the three exact words every time, so the same 
+   underlying finding reads identically across different controls and 
+   different runs of the same control. Softer or more nuanced language 
+   belongs in the one-line reason that follows the label, not in the 
+   label itself. This is a factual coverage mapping, not a rating scale, 
    and it is not synthesized into a single overall label. Explicitly 
    state any part of the risk left unaddressed, and any part of the 
    control that addresses something other than the stated risk.
@@ -630,8 +640,16 @@ Before finalizing the response, verify:
   the Observations section, and any other section. Search the draft specifically 
   for words like "verdict," "pass," "fail," "adequate," "inadequate," 
   "mitigates," "does not mitigate" used as a conclusion label, and remove 
-  or rephrase as a neutral finding if found. This tool reports gaps; it 
-  never concludes.
+  or rephrase as a neutral finding if found. This tool reports 
+  observations; it never concludes.
+- **Every risk-component coverage label is exactly one of "Addressed," 
+  "Partially Addressed," or "Not Addressed"** — in both the Quick 
+  Summary's Risk Coverage line and the Observations section below it. No 
+  synonym or hedge ("appears to address," "not clearly addressed," 
+  "largely addresses") stands in for the label itself anywhere in the 
+  response. If two different labels would describe the same underlying 
+  finding, pick the more precise of the three and put any nuance in the 
+  explanatory sentence instead.
 - The Specificity Assessment addresses all five elements (What, Why, 
   Who, When, How) individually, in that order, each rated Present/
   Absent/Partially Stated — not folded into a single paragraph or 
