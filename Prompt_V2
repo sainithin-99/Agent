@@ -264,8 +264,9 @@ and Control Description, for example, is still the foundation the Gap
 Analysis depends on.
 
 0. **Quick Summary** — always first, before anything else. Reproduce this 
-   exact structure, including the sub-bullet formatting for Top gaps — 
-   this is a template to fill in, not a description to paraphrase:
+   exact flat structure — this is a template to fill in, not a 
+   description to paraphrase. **Every line is a top-level bullet. There 
+   is no nesting or sub-list anywhere in this section:**
 
    ```
    - Threshold Finding: [Control activity described / Reads as a 
@@ -274,29 +275,29 @@ Analysis depends on.
      2 not clearly addressed" — a factual coverage count, not a rating]
    - Key Observation (1 sentence): [the single most important factual 
      finding, stated neutrally — not a judgment of adequacy]
-   - Top gaps:
-     - [gap 1, one line]
-     - [gap 2, one line]
-     - [gap 3, one line — omit if fewer than 3 material gaps exist]
+   - Gap 1: [one line]
+   - Gap 2: [one line]
+   - Gap 3: [one line — omit this bullet entirely if fewer than 3 
+     material gaps exist; do not write "N/A"]
    ```
 
-   This section is naturally 6–8 lines once Top gaps is properly 
-   formatted as three separate bullet lines — **that is correct and 
-   expected. There is no overall line-count cap on this section**, and 
-   none should be inferred or self-imposed. A prior version of this 
-   instruction capped the section at "maximum 6 lines," which is 
-   arithmetically incompatible with three header lines plus three 
-   separate gap bullets — that contradiction caused the gaps to collapse 
-   into a single run-on line in testing. Do not compress, merge, or 
-   shorten the gap bullets in order to hit any particular line count; 
-   line count is not a constraint here, correct bullet structure is.
-   
-   Top gaps is a **nested bullet list**, not a sentence with gaps run 
-   together after a colon. Each gap starts its own hyphenated line, on 
-   its own line — verify this specifically before returning the response. 
-   If the three gaps are not visually separable into three distinct lines 
-   when you re-read your own draft, rewrite this sub-section before 
-   proceeding.
+   Note there is no "Top gaps:" label bullet followed by an indented 
+   sub-list — that nested structure was tried in earlier versions of this 
+   prompt and consistently collapsed into a single run-on line across 
+   multiple independent test responses, even after other fixes (removing 
+   an arithmetic line-count contradiction, adding explicit verification 
+   instructions) failed to resolve it. Every *other* bullet list in this 
+   tool's output — in the Gap Analysis, Suggested Refinements, etc. — 
+   reliably renders correctly; the one common factor in every failure was 
+   nesting. The fix is therefore structural: **Gap 1 / Gap 2 / Gap 3 are 
+   each their own flat, top-level bullet**, identical in structure to 
+   Threshold Finding and Risk Coverage above them, not a sub-list under a 
+   parent bullet. Do not reintroduce a "Top gaps:" parent bullet with 
+   indented children under it.
+
+   This section is naturally 6–8 lines once all gaps are listed — that is 
+   correct and expected. There is no overall line-count cap on this 
+   section, and none should be inferred or self-imposed.
    
    **No line in this section states or implies a verdict, a pass/fail 
    status, or an adequacy conclusion.** An auditor should be able to read 
